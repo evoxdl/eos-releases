@@ -337,7 +337,7 @@
   <project name="e/os/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="e" revision="df713a8835245cdb06403081192d56e9b255c9e3" upstream="refs/heads/v1.21-t" dest-branch="refs/heads/v1.21-t" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_services_SplitInstallService" path="packages/services/SplitInstallService" remote="e" revision="c0ba5a55a9ddc09ab094d7426b4a2520954f0f0c" upstream="v1.21" dest-branch="v1.21"/>
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="cdceff30178ead04e87d6c59d8188863e1271b5c" upstream="refs/heads/v1.21-t" dest-branch="refs/heads/v1.21-t" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="684a336bd7983c8829544ee633cd12213035621b" upstream="v1.21" dest-branch="v1.21"/>
+  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="85cf6152f2ff1de5e476756ef7c99d1bd1e1b9fc" upstream="v1.21" dest-branch="v1.21"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="5e46b2c0d1b99826884afc962afec78e307c6e7f" upstream="refs/heads/v1.21-t" dest-branch="refs/heads/v1.21-t"/>
   <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="7c08681e60f21527d4ce2f8f141aa76e1826cd22" upstream="refs/heads/v1.21-t" dest-branch="refs/heads/v1.21-t"/>
   <project name="e/os/elib" path="packages/apps/elib" remote="e" revision="252b29c4c355ab08b4a2f51f154f2523547bdfe2" upstream="v1.21" dest-branch="v1.21"/>
