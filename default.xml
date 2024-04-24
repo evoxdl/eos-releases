@@ -290,7 +290,7 @@
   <project name="device/google/gs-common" remote="aosp" revision="85e4450447b782ce7f430c8eefb5820ba40516d4" upstream="refs/tags/android-13.0.0_r75" dest-branch="refs/tags/android-13.0.0_r75" groups="device,slider,bluejay,pdk-gs-arm"/>
   <project name="device/google/vrservices" remote="aosp" revision="8aa3796da8e43c1f3b10b0e0bb6bf6a4aedd885f" upstream="refs/tags/android-13.0.0_r75" dest-branch="refs/tags/android-13.0.0_r75" groups="pdk"/>
   <project name="device/sample" remote="aosp" revision="5f5aef3bb2ca4e82efb3a8c5a7f18ac54af356b6" upstream="refs/tags/android-13.0.0_r75" dest-branch="refs/tags/android-13.0.0_r75" groups="pdk"/>
-  <project name="e/os/android" path="android" remote="e" revision="3b7aa16af7da9c2145625a5bafb782f740afb774" upstream="refs/heads/v2.0-t" dest-branch="refs/heads/v2.0-t"/>
+  <project name="e/os/android" path="android" remote="e" revision="7abafc35402aafd73dfccf7c84c54af72cc57958" upstream="refs/heads/v2.0-t" dest-branch="refs/heads/v2.0-t"/>
   <project name="e/os/android_bootable_recovery" path="bootable/recovery" remote="e" revision="5d846a3e53a0db948953ebcc70887f3abf89d065" upstream="refs/heads/v2.0-t" dest-branch="refs/heads/v2.0-t" groups="pdk"/>
   <project name="e/os/android_build" path="build/make" remote="e" revision="b41010a9300e96cb17bb622f04edc0ebf311e8f6" upstream="refs/heads/v2.0-t" dest-branch="refs/heads/v2.0-t" groups="pdk">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
@@ -334,14 +334,14 @@
   <project name="e/os/android_packages_modules_Permission" path="packages/modules/Permission" remote="e" revision="24336cd0f40c4c3afe119ed7b25563796c166f3a" upstream="refs/heads/v2.0-t" dest-branch="refs/heads/v2.0-t" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_overlays_Lineage" path="packages/overlays/Lineage" remote="e" revision="87fc42c23a5cf6e11f5cc10e2e5cb4eff4b0bdba" upstream="refs/heads/v2.0-t" dest-branch="refs/heads/v2.0-t"/>
   <project name="e/os/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="e" revision="df713a8835245cdb06403081192d56e9b255c9e3" upstream="refs/heads/v2.0-t" dest-branch="refs/heads/v2.0-t" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="e/os/android_packages_services_SplitInstallService" path="packages/services/SplitInstallService" remote="e" revision="c0ba5a55a9ddc09ab094d7426b4a2520954f0f0c" upstream="main" dest-branch="main"/>
+  <project name="e/os/android_packages_services_SplitInstallService" path="packages/services/SplitInstallService" remote="e" revision="c0ba5a55a9ddc09ab094d7426b4a2520954f0f0c" upstream="v2.0" dest-branch="v2.0"/>
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="cdceff30178ead04e87d6c59d8188863e1271b5c" upstream="refs/heads/v2.0-t" dest-branch="refs/heads/v2.0-t" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="2c68d97dfc46018a0eacf232909e30bed9c1e57e" upstream="main" dest-branch="main"/>
+  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="79ca2e7e4b73684295c39e6418640a0c9ba5ccb6" upstream="v2.0" dest-branch="v2.0"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="a50cd220f937462db47dc3a9071b5585f3e626fd" upstream="refs/heads/v2.0-t" dest-branch="refs/heads/v2.0-t"/>
   <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="10660b9586b8e04c2360ad2d37e1adf6d41785c4" upstream="refs/heads/v2.0-t" dest-branch="refs/heads/v2.0-t"/>
   <project name="e/os/android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/fm-commonsys" remote="e" revision="e2b2399d0ca8e9181a91aae1c8e9e74444435ac4" upstream="refs/heads/v2.0-t" dest-branch="refs/heads/v2.0-t" groups="qcom,qssi"/>
-  <project name="e/os/elib" path="packages/apps/elib" remote="e" revision="252b29c4c355ab08b4a2f51f154f2523547bdfe2" upstream="main" dest-branch="main"/>
-  <project name="e/os/ih8sn" path="external/ih8sn" remote="e" revision="c00637ac4a71eef8f8c40a28dc997e676aaa6a45" upstream="master" dest-branch="master"/>
+  <project name="e/os/elib" path="packages/apps/elib" remote="e" revision="252b29c4c355ab08b4a2f51f154f2523547bdfe2" upstream="v2.0" dest-branch="v2.0"/>
+  <project name="e/os/ih8sn" path="external/ih8sn" remote="e" revision="c00637ac4a71eef8f8c40a28dc997e676aaa6a45" upstream="v2.0" dest-branch="v2.0"/>
   <project name="e/os/picotts" path="external/svox" remote="e" revision="828c8bfecf8906d5d896b5d63b63ebae6f159968" upstream="refs/heads/v2.0-t" dest-branch="refs/heads/v2.0-t"/>
   <project name="kernel/devices/google/bluejay" path="kernel/google/gs201/private/devices/google/bluejay" remote="aosp" revision="d2fab8bb5539bbcc376b086a51aee964578d7e0a" upstream="refs/tags/android-13.0.0_r0.117" dest-branch="refs/tags/android-13.0.0_r0.117" groups="pixel-extra"/>
   <project name="kernel/devices/google/felix" path="kernel/google/gs201/private/devices/google/felix" remote="aosp" revision="f8a1ec2249b40e98cffc82e3bfda64f64c2d0532" upstream="refs/tags/android-13.0.0_r0.117" dest-branch="refs/tags/android-13.0.0_r0.117" groups="pixel-extra"/>
