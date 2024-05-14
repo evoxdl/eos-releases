@@ -292,7 +292,7 @@
   <project name="device/sample" remote="aosp" revision="5f5aef3bb2ca4e82efb3a8c5a7f18ac54af356b6" upstream="refs/tags/android-13.0.0_r75" dest-branch="refs/tags/android-13.0.0_r75" groups="pdk"/>
   <project name="e/os/android" path="android" remote="e" revision="7abafc35402aafd73dfccf7c84c54af72cc57958" upstream="refs/heads/v2.0-t" dest-branch="refs/heads/v2.0-t"/>
   <project name="e/os/android_bootable_recovery" path="bootable/recovery" remote="e" revision="5d846a3e53a0db948953ebcc70887f3abf89d065" upstream="refs/heads/v2.0-t" dest-branch="refs/heads/v2.0-t" groups="pdk"/>
-  <project name="e/os/android_build" path="build/make" remote="e" revision="b41010a9300e96cb17bb622f04edc0ebf311e8f6" upstream="refs/heads/v2.0-t" dest-branch="refs/heads/v2.0-t" groups="pdk">
+  <project name="e/os/android_build" path="build/make" remote="e" revision="ea0135c483e2082c2461bd900246bd379f1af9aa" upstream="refs/heads/v2.0-t" dest-branch="refs/heads/v2.0-t" groups="pdk">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
     <linkfile src="core" dest="build/core"/>
