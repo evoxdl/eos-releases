@@ -36,5 +36,5 @@ trigger-build-t-test:
 trigger-build-t-dogfooding:
   extends: .trigger-build-dev
   variables:
-    DEVICES: "guacamoleb river lemonade lemonadep hotdogb cheeseburger sunfish beryllium sagit berlin sake"
+    DEVICES: "guacamoleb river lemonade lemonadep hotdogb cheeseburger sunfish beryllium sagit berlin sake troika"
     BUILD_BRANCH: "v1-t"
