@@ -32,9 +32,3 @@ trigger-build-t-test:
   variables:
     DEVICES: "sdk_phone_x86_64 beryllium bramble fajita guacamoleb"
     BUILD_BRANCH: "v1-t"
-
-trigger-build-t-dogfooding:
-  extends: .trigger-build-dev
-  variables:
-    DEVICES: "guacamoleb river lemonade lemonadep hotdogb cheeseburger sunfish beryllium sagit berlin sake troika"
-    BUILD_BRANCH: "v1-t"
