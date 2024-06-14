@@ -26,9 +26,3 @@ trigger-build-t-stable:
   variables:
     DEVICES: "FP3 FP4 FP5 redfin two"
     BUILD_BRANCH: "v1-t"
-
-trigger-build-t-test:
-  extends: .trigger-build-test
-  variables:
-    DEVICES: "sdk_phone_x86_64 beryllium bramble fajita guacamoleb"
-    BUILD_BRANCH: "v1-t"
