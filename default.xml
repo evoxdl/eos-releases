@@ -328,7 +328,7 @@
   <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="245042427cdba1af3defc7e32376b0f7949cc412" upstream="refs/heads/v2.3-t" dest-branch="refs/heads/v2.3-t"/>
   <project name="e/os/android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="e" revision="7a192309366608e2a77a5fcecbc6594e6fb4494f" upstream="refs/heads/v2.3-t" dest-branch="refs/heads/v2.3-t" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" remote="e" revision="c107d1d4d44d5bdc09bb2d5926a3c2e8476a48ad" upstream="refs/heads/v2.3-t" dest-branch="refs/heads/v2.3-t"/>
-  <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="ea585c0a84a168d4411774ff0c1a69342d8ede67" upstream="refs/heads/v2.3-t" dest-branch="refs/heads/v2.3-t"/>
+  <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="69a2c439bd5959c48c4e8a214a3661778d59dd4d" upstream="refs/heads/v2.3-t" dest-branch="refs/heads/v2.3-t"/>
   <project name="e/os/android_packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="e" revision="2766482e8018e162b9900cf9a26896cf343eb0b4" upstream="refs/heads/v2.3-t" dest-branch="refs/heads/v2.3-t" groups="pdk-fs"/>
   <project name="e/os/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="e" revision="3ce92db815824064aab7de494a5ac6357cf91f2c" upstream="refs/heads/v2.3-t" dest-branch="refs/heads/v2.3-t" groups="pdk-fs"/>
   <project name="e/os/android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="e" revision="8c746df079e05306dbdefe162d97647177e99ad6" upstream="refs/heads/v2.3-t" dest-branch="refs/heads/v2.3-t" groups="pdk-cw-fs,pdk-fs"/>
@@ -339,7 +339,7 @@
   <project name="e/os/android_packages_services_SplitInstallService" path="packages/services/SplitInstallService" remote="e" revision="c0ba5a55a9ddc09ab094d7426b4a2520954f0f0c" upstream="v2.3" dest-branch="v2.3"/>
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="cdceff30178ead04e87d6c59d8188863e1271b5c" upstream="refs/heads/v2.3-t" dest-branch="refs/heads/v2.3-t" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="241340a6b4892bf06e879ba5cbf453c5c5ac50a8" upstream="v2.3" dest-branch="v2.3"/>
-  <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="80cc7d0190c674410aeb2712fd18112f1b3c9c71" upstream="refs/heads/v2.3-t" dest-branch="refs/heads/v2.3-t"/>
+  <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="4ccda0ad415d4011aaaa52887a71c43df5c967b7" upstream="refs/heads/v2.3-t" dest-branch="refs/heads/v2.3-t"/>
   <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="279f51017121953268b5a0e83dc49408af554349" upstream="refs/heads/v2.3-t" dest-branch="refs/heads/v2.3-t"/>
   <project name="e/os/android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/fm-commonsys" remote="e" revision="e2b2399d0ca8e9181a91aae1c8e9e74444435ac4" upstream="refs/heads/v2.3-t" dest-branch="refs/heads/v2.3-t" groups="qcom,qssi"/>
   <project name="e/os/elib" path="packages/apps/elib" remote="e" revision="252b29c4c355ab08b4a2f51f154f2523547bdfe2" upstream="v2.3" dest-branch="v2.3"/>
