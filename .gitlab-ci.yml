@@ -12,7 +12,7 @@ check-version:
 trigger-build-u-community:
   extends: .trigger-build-community
   variables:
-    DEVICES: "FP4 tetris"
+    DEVICES: "FP4 tetris shiba"
     BUILD_BRANCH: "v1-u"
 
 trigger-build-u-partner:
@@ -24,5 +24,5 @@ trigger-build-u-partner:
 trigger-build-u-official:
   extends: .trigger-build-official
   variables:
-    DEVICES: "FP4"
+    DEVICES: "FP4 shiba"
     BUILD_BRANCH: "v1-u"
