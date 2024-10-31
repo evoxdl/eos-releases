@@ -9,10 +9,16 @@ update-manifest-u:
 check-version:
   extends: .check-version
 
-trigger-build-u-community:
+trigger-build-u-community-batch-1:
   extends: .trigger-build-community
   variables:
-    DEVICES: "FP4 tetris shiba"
+    DEVICES: "DRG FP3 FP4 FP5 Mi439 Mi8917 Mi8937 PL2 TP1803 Z01R a52q a72q a73xq akari akatsuki alioth apollon aura aurora axolotl barbet beckham berlin berlna beryllium beyond0lte beyond1lte beyond2lte beyondx bluejay blueline bonito bramble caprip cheeseburger cheetah cheryl chiron coral crosshatch d1 d2s d2x davinci deadpool devon dipper discovery dre dubai dumpling enchilada equuleus evert f62 fajita flame gemini grus gta4l gta4lwifi gta4xl gta4xlwifi gtowifi gts4lv gts4lvwifi guacamole guacamoleb hawao haydn heart hotdog hotdogb instantnoodle instantnoodlep kane kebab kiev kirin lake lemonade lemonadep lemonades lisa lmi"
+    BUILD_BRANCH: "v1-u"
+
+trigger-build-u-community-batch-2:
+  extends: .trigger-build-community
+  variables:
+    DEVICES: "lynx m52xq mars martini mata mermaid messi miatoll nairo nash natrium nio ocean onclite oriole panther payton pdx203 pdx206 pdx214 pdx215 perseus pioneer polaris pro1 pro1x pstar pyxis racer raven redfin renoir rhode river sagit sargo shiba sunfish surya sweet taimen tangorpro tetris troika ursa vela voyager wade walleye xpeng xz2c zippo"
     BUILD_BRANCH: "v1-u"
 
 trigger-build-u-partner:
