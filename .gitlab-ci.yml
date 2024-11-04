@@ -18,7 +18,13 @@ trigger-build-u-community-batch-1:
 trigger-build-u-community-batch-2:
   extends: .trigger-build-community
   variables:
-    DEVICES: "lynx m52xq mars martini mata mermaid messi miatoll nairo nash natrium nio ocean onclite oriole panther payton pdx203 pdx206 pdx214 pdx215 perseus pioneer polaris pro1 pro1x pstar pyxis racer raven redfin renoir rhode river sagit sargo shiba sunfish surya sweet taimen tangorpro tetris troika ursa vela voyager wade walleye xpeng xz2c zippo"
+    DEVICES: "NB1 a52sxq a71 akita billie borneo cebu channel cmi d1x dopinder earth felix foster foster_tab g710n g710ulm guam guamp husky ingot joan judyln judyp judypn luigi lynx m5 m52xq m5_tab marlin mars martini mata mermaid messi miatoll munch nairo nash natrium nio nx nx_tab ocean odroidc4 odroidc4_tab onclite oriole oscar panther payton pdx203 pdx206 pdx214 pdx215 pdx234 perseus pioneer polaris porg porg_tab pro1 pro1x pstar pyxis quill quill_tab racer radxa0 radxa0_tab raven redfin renoir rhode river rtwo sabrina sagit sailfish salami sargo shark sif socrates"
+    BUILD_BRANCH: "v1-u"
+
+trigger-build-u-community-batch-3:
+  extends: .trigger-build-community
+  variables:
+    DEVICES: "sunfish surya sweet taimen tangorpro tetris troika umi ursa vela voyager wade walleye xpeng xz2c zippo"
     BUILD_BRANCH: "v1-u"
 
 trigger-build-u-partner:
