@@ -12,19 +12,19 @@ check-version:
 trigger-build-u-community-batch-1:
   extends: .trigger-build-community
   variables:
-    DEVICES: "DRG FP3 FP4 FP5 Mi439 Mi8917 Mi8937 PL2 TP1803 Z01R a52q a72q a73xq akari akatsuki alioth apollon aura aurora axolotl barbet beckham berlin berlna beryllium beyond0lte beyond1lte beyond2lte beyondx bluejay blueline bonito bramble caprip cheeseburger cheetah cheryl chiron coral crosshatch d1 d2s d2x davinci deadpool devon dipper discovery dre dubai dumpling enchilada equuleus evert f62 fajita flame gemini grus gta4l gta4lwifi gta4xl gta4xlwifi gtowifi gts4lv gts4lvwifi guacamole guacamoleb hawao haydn heart hotdog hotdogb instantnoodle instantnoodlep kane kebab kiev kirin lake lemonade lemonadep lemonades lisa lmi"
+    DEVICES: "DRG FP3 FP4 FP5 Mi439 Mi8917 Mi8937 PL2 TP1803 Z01R a52q a72q a73xq akari akatsuki alioth apollon aura aurora axolotl barbet beckham berlna beyond0lte beyond1lte beyond2lte beyondx bluejay blueline bonito bramble caprip cheetah cheryl chiron coral crosshatch d1 d2s d2x davinci deadpool devon dipper discovery dre dubai dumpling enchilada equuleus evert f62 fajita flame gemini grus gta4l gta4lwifi gta4xl gta4xlwifi gtowifi gts4lv gts4lvwifi guacamole hawao haydn heart hotdog instantnoodle instantnoodlep kane kebab kiev kirin lake lemonades lisa lmi"
     BUILD_BRANCH: "v1-u"
 
 trigger-build-u-community-batch-2:
   extends: .trigger-build-community
   variables:
-    DEVICES: "NB1 a52sxq a71 akita billie borneo cebu channel cmi d1x dopinder earth felix foster foster_tab g710n g710ulm guam guamp husky ingot joan judyln judyp judypn luigi lynx m5 m52xq m5_tab marlin mars martini mata mermaid messi miatoll munch nairo nash natrium nio nx nx_tab ocean odroidc4 odroidc4_tab onclite oriole oscar panther payton pdx203 pdx206 pdx214 pdx215 pdx234 perseus pioneer polaris porg porg_tab pro1 pro1x pstar pyxis quill quill_tab racer radxa0 radxa0_tab raven redfin renoir rhode river rtwo sabrina sagit sailfish salami sargo shark sif socrates"
+    DEVICES: "NB1 a52sxq a71 akita billie borneo cebu channel cmi d1x dopinder earth felix foster foster_tab g710n g710ulm guam guamp husky ingot joan judyln judyp judypn luigi lynx m5 m52xq m5_tab marlin mars martini mata mermaid messi miatoll munch nairo nash natrium nio nx nx_tab ocean odroidc4 odroidc4_tab onclite oriole oscar panther payton pdx203 pdx206 pdx214 pdx215 pdx234 perseus pioneer polaris porg porg_tab pro1 pro1x pstar pyxis quill quill_tab racer radxa0 radxa0_tab raven redfin renoir rhode rtwo sabrina sailfish salami sargo shark sif socrates"
     BUILD_BRANCH: "v1-u"
 
 trigger-build-u-community-batch-3:
   extends: .trigger-build-community
   variables:
-    DEVICES: "sunfish surya sweet taimen tangorpro tetris troika umi ursa vela voyager wade walleye xpeng xz2c zippo"
+    DEVICES: "berlin beryllium cheeseburger guacamoleb hotdogb lemonade lemonadep river sagit sunfish surya sweet taimen tangorpro tetris troika umi ursa vela voyager wade walleye xpeng xz2c zippo"
     BUILD_BRANCH: "v1-u"
 
 trigger-build-u-partner:
