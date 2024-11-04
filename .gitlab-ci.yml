@@ -12,19 +12,19 @@ check-version:
 trigger-build-u-community-batch-1:
   extends: .trigger-build-community
   variables:
-    DEVICES: "DRG FP3 FP4 FP5 Mi439 Mi8917 Mi8937 PL2 TP1803 Z01R a52q a72q a73xq akari akatsuki alioth apollon aura aurora axolotl barbet beckham berlna beyond0lte beyond1lte beyond2lte beyondx bluejay blueline bonito bramble caprip cheetah cheryl chiron coral crosshatch d1 d2s d2x davinci deadpool devon dipper discovery dre dubai dumpling enchilada equuleus evert f62 fajita flame gemini grus gta4l gta4lwifi gta4xl gta4xlwifi gtowifi gts4lv gts4lvwifi guacamole hawao haydn heart hotdog instantnoodle instantnoodlep kane kebab kiev kirin lake lemonades lisa lmi"
+    DEVICES: "FP3 FP4 FP5 Mi439 Mi8917 Mi8937 TP1803 Z01R a52q a52sxq a71 a72q a73xq akari akatsuki akita alioth apollon aura aurora axolotl barbet beckham berlna beyond0lte beyond1lte beyond2lte beyondx billie bluejay blueline bonito borneo bramble caprip cebu channel cheetah cheryl chiron cmi coral crosshatch d1 d1x d2s d2x davinci devon dipper discovery dre dubai dumpling earth enchilada equuleus evert f62 fajita felix flame g710n g710ulm gemini grus gta4l gta4lwifi gta4xl gta4xlwifi gtowifi gts4lv gts4lvwifi guacamole guam guamp hawao haydn heart hotdog husky ingot instantnoodle instantnoodlep"
     BUILD_BRANCH: "v1-u"
 
 trigger-build-u-community-batch-2:
   extends: .trigger-build-community
   variables:
-    DEVICES: "NB1 a52sxq a71 akita billie borneo cebu channel cmi d1x dopinder earth felix foster foster_tab g710n g710ulm guam guamp husky ingot joan judyln judyp judypn luigi lynx m5 m52xq m5_tab marlin mars martini mata mermaid messi miatoll munch nairo nash natrium nio nx nx_tab ocean odroidc4 odroidc4_tab onclite oriole oscar panther payton pdx203 pdx206 pdx214 pdx215 pdx234 perseus pioneer polaris porg porg_tab pro1 pro1x pstar pyxis quill quill_tab racer radxa0 radxa0_tab raven redfin renoir rhode rtwo sabrina sailfish salami sargo shark sif socrates"
+    DEVICES: "joan judyln judyp judypn kane kebab kiev kirin lake lemonades lisa lmi luigi lynx m52xq marlin mars martini mata mermaid messi miatoll munch nairo nash natrium nio ocean onclite oriole oscar panther payton pdx203 pdx206 pdx214 pdx215 pdx234 perseus pioneer polaris pro1 pro1x pstar pyxis racer raven redfin renoir rhode rtwo sailfish salami sargo shark socrates surya sweet taimen tangorpro tetris umi ursa vela voyager walleye xpeng xz2c zippo"
     BUILD_BRANCH: "v1-u"
 
-trigger-build-u-community-batch-3:
+trigger-build-u-community-dogfooding:
   extends: .trigger-build-community
   variables:
-    DEVICES: "berlin beryllium cheeseburger guacamoleb hotdogb lemonade lemonadep river sagit sunfish surya sweet taimen tangorpro tetris troika umi ursa vela voyager wade walleye xpeng xz2c zippo"
+    DEVICES: "berlin beryllium cheeseburger guacamoleb hotdogb lemonade lemonadep river sagit sunfish troika"
     BUILD_BRANCH: "v1-u"
 
 trigger-build-u-partner:
