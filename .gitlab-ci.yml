@@ -3,38 +3,38 @@ include:
     ref: master
     file: '/templates/.gitlab-ci.yml'
 
-update-manifest-u:
+update-manifest-a14:
   extends: .update-manifest
 
 check-version:
   extends: .check-version
 
-trigger-build-u-community-batch-1:
+trigger-build-a14-community-batch-1:
   extends: .trigger-build-community
   variables:
     DEVICES: "FP3 FP4 FP5 Mi439 Mi8917 Mi8937 TP1803 Z01R a52q a52sxq a71 a72q a73xq akari akatsuki akita alioth apollon aura aurora axolotl barbet beckham berlna beyond0lte beyond1lte beyond2lte beyondx billie bluejay blueline bonito borneo bramble caprip cebu channel cheetah cheryl chiron cmi coral crosshatch d1 d1x d2s d2x davinci devon dipper discovery dre dubai dumpling earth enchilada equuleus evert f62 fajita felix flame g710n g710ulm gemini grus gta4l gta4lwifi gta4xl gta4xlwifi gtowifi gts4lv gts4lvwifi guacamole guam guamp hawao haydn heart hotdog husky ingot instantnoodle instantnoodlep"
-    BUILD_BRANCH: "v1-u"
+    BUILD_BRANCH: "a14"
 
-trigger-build-u-community-batch-2:
+trigger-build-a14-community-batch-2:
   extends: .trigger-build-community
   variables:
     DEVICES: "joan judyln judyp judypn kane kebab kiev kirin lake lemonades lisa lmi luigi lynx m52xq marlin mars martini mata mermaid messi miatoll munch nairo nash natrium nio ocean onclite oriole oscar otter panther payton pdx203 pdx206 pdx214 pdx215 pdx234 perseus pioneer polaris pro1 pro1x pstar pyxis racer raven redfin renoir rhode rtwo sailfish salami sargo shark socrates surya sweet taimen tangorpro tetris umi ursa vela voyager walleye xpeng xz2c zippo"
-    BUILD_BRANCH: "v1-u"
+    BUILD_BRANCH: "a14"
 
-trigger-build-u-community-dogfooding:
+trigger-build-a14-community-dogfooding:
   extends: .trigger-build-community
   variables:
     DEVICES: "berlin beryllium cheeseburger guacamoleb hotdogb lemonade lemonadep river sagit sunfish troika"
-    BUILD_BRANCH: "v1-u"
+    BUILD_BRANCH: "a14"
 
-trigger-build-u-partner:
+trigger-build-a14-partner:
   extends: .trigger-build-partner
   variables:
     DEVICES: "FP4"
-    BUILD_BRANCH: "v1-u"
+    BUILD_BRANCH: "a14"
 
-trigger-build-u-official:
+trigger-build-a14-official:
   extends: .trigger-build-official
   variables:
     DEVICES: "FP4 otter shiba"
-    BUILD_BRANCH: "v1-u"
+    BUILD_BRANCH: "a14"
