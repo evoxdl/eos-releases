@@ -18,7 +18,7 @@ trigger-build-a14-community-batch-1:
 trigger-build-a14-community-batch-2:
   extends: .trigger-build-community
   variables:
-    DEVICES: "joan judyln judyp judypn kane kebab kiev kirin lake lemonades lisa lmi luigi lynx m52xq marlin mars martini mata mermaid messi miatoll munch nairo nash natrium nio ocean onclite oriole oscar otter panther payton pdx203 pdx206 pdx214 pdx215 pdx234 perseus pioneer polaris pro1 pro1x pstar pyxis racer raven redfin renoir rhode rtwo sailfish salami sargo shark socrates surya sweet taimen tangorpro tetris umi ursa vela voyager walleye xpeng xz2c x1s y2s z3s zippo"
+    DEVICES: "joan judyln judyp judypn kane kebab kiev kirin lake lemonades lisa lmi luigi lynx m52xq marlin mars martini mata mermaid messi miatoll munch nairo nash natrium nio ocean onclite oriole oscar otter panther payton pdx203 pdx206 pdx214 pdx215 pdx234 perseus pioneer polaris pro1 pro1x pstar pyxis racer raven redfin renoir rhode rtwo sailfish salami sargo shark shiba socrates surya sweet taimen tangorpro tetris umi ursa vela voyager walleye xpeng xz2c x1s y2s z3s zippo"
     BUILD_BRANCH: "a14"
 
 trigger-build-a14-community-dogfooding:
