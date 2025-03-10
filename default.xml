@@ -19,6 +19,10 @@
   <project name="LineageOS/android_art" path="art" revision="0abc6e9ecd0bdf2414966af6f9e850a05f88413f" upstream="refs/heads/lineage-21.0" dest-branch="refs/heads/lineage-21.0" groups="pdk"/>
   <project name="LineageOS/android_bionic" path="bionic" revision="c9fb1e8640d34e81966f3ff874bc310cabc151bf" upstream="refs/heads/lineage-21.0" dest-branch="refs/heads/lineage-21.0" groups="pdk"/>
   <project name="LineageOS/android_build_release" path="build/release" revision="4df4877c09e31c27096711e953e56e3d2cf0d809" upstream="refs/heads/lineage-21.0" dest-branch="refs/heads/lineage-21.0" groups="pdk,tradefed"/>
+  <project name="LineageOS/android_build_soong" path="build/soong" revision="7e2be266cfde19c5e0cbc8e4ed016d5572abd4fb" upstream="refs/heads/lineage-21.0" dest-branch="refs/heads/lineage-21.0" groups="pdk,tradefed">
+    <linkfile src="root.bp" dest="Android.bp"/>
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
+  </project>
   <project name="LineageOS/android_development" path="development" revision="46c27c9f02618f69bd15205adc5fb2e699d4bc76" upstream="refs/heads/lineage-21.0" dest-branch="refs/heads/lineage-21.0" groups="developers,pdk-cw-fs,pdk-fs"/>
   <project name="LineageOS/android_device_generic_common" path="device/generic/common" revision="987a6110ff8356a385e0393b6dc56fa48cd5ec15" upstream="refs/heads/lineage-21.0" dest-branch="refs/heads/lineage-21.0" groups="pdk"/>
   <project name="LineageOS/android_device_google_atv" path="device/google/atv" revision="754e5418af6b7df47df34681b3ec01c1d917de76" upstream="refs/heads/lineage-21.0" dest-branch="refs/heads/lineage-21.0" groups="device,broadcom_pdk,generic_fs,pdk"/>
@@ -309,10 +313,6 @@
     <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
     <linkfile src="target" dest="build/target"/>
     <linkfile src="tools" dest="build/tools"/>
-  </project>
-  <project name="e/os/android_build_soong" path="build/soong" remote="e" revision="6972503f6c0a512e67c58fc213fab62ff70df5bc" upstream="refs/heads/a14" dest-branch="refs/heads/a14" groups="pdk,tradefed">
-    <linkfile src="root.bp" dest="Android.bp"/>
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
   </project>
   <project name="e/os/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="e" revision="bd200eb7620e7a182cf9adfe1ade8038d873ed2e" upstream="refs/heads/a14" dest-branch="refs/heads/a14"/>
   <project name="e/os/android_frameworks_av" path="frameworks/av" remote="e" revision="479d02280bd023b809c9757ceab93e92500ef5e3" upstream="refs/heads/a14" dest-branch="refs/heads/a14" groups="pdk"/>
