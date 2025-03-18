@@ -305,7 +305,7 @@
   <project name="device/google/vrservices" remote="aosp" revision="8aa3796da8e43c1f3b10b0e0bb6bf6a4aedd885f" upstream="refs/tags/android-14.0.0_r67" dest-branch="refs/tags/android-14.0.0_r67" groups="pdk"/>
   <project name="device/google_car" remote="aosp" revision="92b6781fa6ce806d4d33c362a8d083fc67f7f3e7" upstream="refs/tags/android-14.0.0_r67" dest-branch="refs/tags/android-14.0.0_r67" groups="device,pdk"/>
   <project name="device/sample" remote="aosp" revision="ef866e3c6677dcf88a233308f829c5cf50f3314e" upstream="refs/tags/android-14.0.0_r67" dest-branch="refs/tags/android-14.0.0_r67" groups="pdk"/>
-  <project name="e/os/android" path="android" remote="e" revision="80bd96c19710d1679fb1ac516d16e975adaa1bbb" upstream="refs/heads/v2.9-a14" dest-branch="refs/heads/v2.9-a14"/>
+  <project name="e/os/android" path="android" remote="e" revision="f54ee001999ac24bed483dc10e8f630c2b5260ed" upstream="refs/heads/v2.9-a14" dest-branch="refs/heads/v2.9-a14"/>
   <project name="e/os/android_bootable_recovery" path="bootable/recovery" remote="e" revision="4f499246bbf4999b29e920381404640c99344de3" upstream="refs/heads/v2.9-a14" dest-branch="refs/heads/v2.9-a14" groups="pdk"/>
   <project name="e/os/android_build" path="build/make" remote="e" revision="6cd0b4512ae6e7c0bf7469b74db9129aa0d3b732" upstream="refs/heads/v2.9-a14" dest-branch="refs/heads/v2.9-a14" groups="pdk">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
@@ -317,7 +317,7 @@
   </project>
   <project name="e/os/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="e" revision="bd200eb7620e7a182cf9adfe1ade8038d873ed2e" upstream="refs/heads/v2.9-a14" dest-branch="refs/heads/v2.9-a14"/>
   <project name="e/os/android_frameworks_av" path="frameworks/av" remote="e" revision="479d02280bd023b809c9757ceab93e92500ef5e3" upstream="refs/heads/v2.9-a14" dest-branch="refs/heads/v2.9-a14" groups="pdk"/>
-  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="3e49f60bb3b697cde20182df77716beecf7228db" upstream="refs/heads/v2.9-a14" dest-branch="refs/heads/v2.9-a14" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="e9800dcdd06277704d4fb77de58694c7c7b9072d" upstream="refs/heads/v2.9-a14" dest-branch="refs/heads/v2.9-a14" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_frameworks_libs_systemui" path="frameworks/libs/systemui" remote="e" revision="2ed03af5937d5f21ead67b68b1780a419fe6b717" upstream="refs/heads/v2.9-a14" dest-branch="refs/heads/v2.9-a14" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_frameworks_opt_vcard" path="frameworks/opt/vcard" remote="e" revision="beabc4af761765e72a433a7af5d9afb758210b49" upstream="refs/heads/v2.9-a14" dest-branch="refs/heads/v2.9-a14" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_lineage-sdk" path="lineage-sdk" remote="e" revision="0a9a2f32885182a7e957c8c88df28770913dd953" upstream="refs/heads/v2.9-a14" dest-branch="refs/heads/v2.9-a14"/>
@@ -348,7 +348,7 @@
   <project name="e/os/android_packages_overlays_Lineage" path="packages/overlays/Lineage" remote="e" revision="71b6a0bb1925c0c51dcb994ac790e2c521af27f4" upstream="refs/heads/v2.9-a14" dest-branch="refs/heads/v2.9-a14"/>
   <project name="e/os/android_packages_services_SplitInstallService" path="packages/services/SplitInstallService" remote="e" revision="3ebc19c94f43ded21ee233f2ad0abea3b9e006c9" upstream="v2.9" dest-branch="v2.9"/>
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="3a9acebb027d1ec211b7d7f2306af24945980d4c" upstream="refs/heads/v2.9-a14" dest-branch="refs/heads/v2.9-a14" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="0a11406c0c7b7cdefea7a91571605bb71927b927" upstream="v2.9" dest-branch="v2.9"/>
+  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="bada52328b95c68702883cb59ebc7741dba9a7bd" upstream="v2.9" dest-branch="v2.9"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="f7039eccf065ef00d8ed3ea3df4308106970238b" upstream="refs/heads/v2.9-a14" dest-branch="refs/heads/v2.9-a14"/>
   <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="7a44d76bbccc41d17f16a6589ba81fb880d559a5" upstream="refs/heads/v2.9-a14" dest-branch="refs/heads/v2.9-a14"/>
   <project name="e/os/android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="e" revision="ecabfe95dad7e5d2fc6c5e2579de35e073d1fa88" upstream="refs/heads/v2.9-a14" dest-branch="refs/heads/v2.9-a14" groups="qcom,qssi"/>
