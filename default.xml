@@ -18,7 +18,7 @@
   
   <project name="LineageOS/android_art" path="art" revision="0abc6e9ecd0bdf2414966af6f9e850a05f88413f" upstream="refs/heads/lineage-21.0" dest-branch="refs/heads/lineage-21.0" groups="pdk"/>
   <project name="LineageOS/android_bionic" path="bionic" revision="c9fb1e8640d34e81966f3ff874bc310cabc151bf" upstream="refs/heads/lineage-21.0" dest-branch="refs/heads/lineage-21.0" groups="pdk"/>
-  <project name="LineageOS/android_build_release" path="build/release" revision="a4be3fc3f680ba99d84d46d56aa9a64a768cdff2" upstream="refs/heads/lineage-21.0" dest-branch="refs/heads/lineage-21.0" groups="pdk,tradefed"/>
+  <project name="LineageOS/android_build_release" path="build/release" revision="758427ad3202e0bce1abbd4ad914151beafed81a" upstream="refs/heads/lineage-21.0" dest-branch="refs/heads/lineage-21.0" groups="pdk,tradefed"/>
   <project name="LineageOS/android_build_soong" path="build/soong" revision="7e2be266cfde19c5e0cbc8e4ed016d5572abd4fb" upstream="refs/heads/lineage-21.0" dest-branch="refs/heads/lineage-21.0" groups="pdk,tradefed">
     <linkfile src="root.bp" dest="Android.bp"/>
     <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
