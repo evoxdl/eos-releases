@@ -317,7 +317,7 @@
   </project>
   <project name="e/os/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="e" revision="bd200eb7620e7a182cf9adfe1ade8038d873ed2e" upstream="refs/heads/v3.0-a14" dest-branch="refs/heads/v3.0-a14"/>
   <project name="e/os/android_frameworks_av" path="frameworks/av" remote="e" revision="479d02280bd023b809c9757ceab93e92500ef5e3" upstream="refs/heads/v3.0-a14" dest-branch="refs/heads/v3.0-a14" groups="pdk"/>
-  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="dc582261d43bd08f611cbea7f7e0427fe895adb6" upstream="refs/heads/v3.0-a14" dest-branch="refs/heads/v3.0-a14" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="2c6de51db4c697ac882611d188655b18bda13353" upstream="refs/heads/v3.0-a14" dest-branch="refs/heads/v3.0-a14" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_frameworks_libs_systemui" path="frameworks/libs/systemui" remote="e" revision="2ed03af5937d5f21ead67b68b1780a419fe6b717" upstream="refs/heads/v3.0-a14" dest-branch="refs/heads/v3.0-a14" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_frameworks_opt_vcard" path="frameworks/opt/vcard" remote="e" revision="beabc4af761765e72a433a7af5d9afb758210b49" upstream="refs/heads/v3.0-a14" dest-branch="refs/heads/v3.0-a14" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_lineage-sdk" path="lineage-sdk" remote="e" revision="1f4fb60ff0f64f428375edbf6b704b9c0a33e745" upstream="refs/heads/v3.0-a14" dest-branch="refs/heads/v3.0-a14"/>
@@ -348,7 +348,7 @@
   <project name="e/os/android_packages_overlays_Lineage" path="packages/overlays/Lineage" remote="e" revision="71b6a0bb1925c0c51dcb994ac790e2c521af27f4" upstream="refs/heads/v3.0-a14" dest-branch="refs/heads/v3.0-a14"/>
   <project name="e/os/android_packages_services_SplitInstallService" path="packages/services/SplitInstallService" remote="e" revision="3ebc19c94f43ded21ee233f2ad0abea3b9e006c9" upstream="v3.0" dest-branch="v3.0"/>
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="46150239cddc330398cece7637a5682dc0daf4b3" upstream="refs/heads/v3.0-a14" dest-branch="refs/heads/v3.0-a14" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="340bf094f571c185219dc0406d89a20f7705bea7" upstream="v3.0" dest-branch="v3.0"/>
+  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="prebuilts/prebuiltapks" remote="e" revision="de026294ca6bf0fb0d854a6ff9f2d9bab0b4e6e2" upstream="v3.0" dest-branch="v3.0"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="e49a8a684b52fe4c7b35ef418328ffc1730560c5" upstream="refs/heads/v3.0-a14" dest-branch="refs/heads/v3.0-a14"/>
   <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="48f78309ab5895bdc7e04981c7800a9d27f37e2a" upstream="refs/heads/v3.0-a14" dest-branch="refs/heads/v3.0-a14"/>
   <project name="e/os/android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="e" revision="3e54ca888835fecac4560ba12d45a0770a41a8d9" upstream="refs/heads/v3.0-a14" dest-branch="refs/heads/v3.0-a14" groups="qcom,qssi"/>
