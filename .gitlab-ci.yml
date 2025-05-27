@@ -30,5 +30,5 @@ trigger-build-a14-community-dogfooding:
 trigger-build-a14-official:
   extends: .trigger-build-official
   variables:
-    DEVICES: "FP4 mimir otter sapphire shiba tangorpro tetris avicii"
+    DEVICES: "FP4 FP5 mimir otter sapphire shiba tangorpro tetris avicii"
     BUILD_BRANCH: "a14"
