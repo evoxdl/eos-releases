@@ -3,32 +3,38 @@ include:
     ref: master
     file: '/templates/.gitlab-ci.yml'
 
-update-manifest-a14:
+update-manifest-a15:
   extends: .update-manifest
 
 check-version:
   extends: .check-version
 
-trigger-build-a14-community-batch-1:
+trigger-build-a15-community-batch-1:
   extends: .trigger-build-community
   variables:
-    DEVICES: "FP3 FP4 FP5 Mi439 Mi8917 Mi8937 TP1803 Z01R a52q a52sxq a71 a72q a73xq akari akatsuki akita alioth apollon aura aurora avicii axolotl barbet beckham berlin berlna billie bluejay blueline bonito borneo caprip cebu cheetah cheryl chiron cmi coral crosshatch davinci devon dipper discovery dre dubai dumpling earth enchilada equuleus evert fajita felix flame g710n g710ulm gemini grus gta4l gta4lwifi gtowifi gts4lv gts4lvwifi guacamole guam guamp hawao haydn heart hotdog husky ingot instantnoodle instantnoodlep"
-    BUILD_BRANCH: "a14"
+    DEVICES: "a21s a52q a52sxq a71 a72q a73xq akari akatsuki akita alioth apollon aura aurora axolotl B2N bangkk barbet beckham berlin berlna beyond0lte beyond1lte beyond2lte beyondx bluejay blueline bonito borneo bronco caiman capri caprip cebu channel cheetah cheryl chiron cmi comet coral crosshatch cupid d1 d1x d2s d2x davinci deadpool devon dipper discovery diting dopinder dre DRG dubai dumpling earth enchilada eqs equuleus evert f62 fajita felix flame fogo fogos foster foster_tab FP3 FP4 FP5 g710n g710ulm gauguin gemini grus gta4l gta4lwifi gta4xl gts4lv gts4lvwifi guacamole guam"
+    BUILD_BRANCH: "a15"
 
-trigger-build-a14-community-batch-2:
+trigger-build-a15-community-batch-2:
   extends: .trigger-build-community
   variables:
-    DEVICES: "joan judyln judyp judypn kane kebab kiev kirin lake lemonades lisa lmi luigi lynx m52xq marlin mars martini mata mermaid messi miatoll mimir munch nairo nash natrium nio ocean onclite oriole oscar otter panther payton pdx203 pdx206 pdx214 pdx215 pdx234 perseus pioneer polaris pro1 pro1x pstar pyxis racer raven redfin renoir rhode r8s sailfish salami sapphire sargo shark shiba socrates sweet taimen tangorpro tetris umi ursa vela voyager walleye xpeng xz2c x1s y2s z3s zippo"
-    BUILD_BRANCH: "a14"
+    DEVICES: "guamp gunnar hawao haydn heart hotdog husky ingot instantnoodle instantnoodlep joan judyln judyp judypn kane kebab kiev kirin komodo l01k lake larry lemonades lisa lmi luigi lynx m5 m52xq m5_tab marble marlin mars martini mata mayfly mermaid messi Mi439 Mi8917 Mi8937 miami miatoll mondrian munch nairo nash natrium nio nx nx563j nx651j nx_tab ocean odroidc4 odroidc4_tab oriole oscar oscaro panther payton pdx203 pdx206 pdx214 pdx215 pdx225 pdx234 pdx235 pdx237 perseus pioneer PL2 polaris porg porg_tab pro1 pro1x pstar pyxis quill quill_tab radxa0 radxa02 radxa02_tab radxa0_tab"
+    BUILD_BRANCH: "a15"
 
-trigger-build-a14-community-dogfooding:
+trigger-build-a15-community-batch-3:
+  extends: .trigger-build-community
+  variables:
+    DEVICES: "raven redfin renoir rhode sabrina sailfish salami sargo sdk_phone_x86_64 shark shiba sif socrates Spacewar surya sweet taimen tangorpro thor thyme tokay TP1803 tundra umi unicorn ursa vela violet voyager wade walleye xpeng xz2c Z01R zeus zippo zizhan"
+    BUILD_BRANCH: "a15"
+
+trigger-build-a15-community-dogfooding:
   extends: .trigger-build-community
   variables:
     DEVICES: "beryllium bramble cheeseburger guacamoleb gta4xlwifi hotdogb lemonade lemonadep river rtwo sagit sunfish troika"
-    BUILD_BRANCH: "a14"
+    BUILD_BRANCH: "a15"
 
-trigger-build-a14-official:
+trigger-build-a15-official:
   extends: .trigger-build-official
   variables:
-    DEVICES: "FP4 FP5 mimir otter sapphire shiba tangorpro tetris avicii"
-    BUILD_BRANCH: "a14"
+    DEVICES: ""
+    BUILD_BRANCH: "a15"
