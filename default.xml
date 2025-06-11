@@ -307,7 +307,7 @@
   <project name="e/os/android" path="android" remote="e" revision="3f86154e282645734fb3d4939cad600c42dcb80c" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15"/>
   <project name="e/os/android_bootable_deprecated-ota" path="bootable/deprecated-ota" remote="e" revision="e4e2ccd64edca8b784636e0f21a51b359c8f7df5" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15" groups="pdk-cw"/>
   <project name="e/os/android_bootable_recovery" path="bootable/recovery" remote="e" revision="443359a753ae920a468918b104d96d5f72381374" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15" groups="pdk"/>
-  <project name="e/os/android_build" path="build/make" remote="e" revision="1108132b448b3968662065d35f5092b03493081e" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15" groups="pdk">
+  <project name="e/os/android_build" path="build/make" remote="e" revision="57c8ec5afd989f7e7b7789e96fef13d20dc0a476" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15" groups="pdk">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
     <linkfile src="core" dest="build/core"/>
@@ -320,7 +320,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
   </project>
   <project name="e/os/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="e" revision="782b62fdcb7b3a67d2389663733cc0dc67bdd6b4" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15"/>
-  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="91174c1217a017d47973713264e349744caeba21" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="3831a8d18e4e803b5e02f3edb1ca0b3d6c793b15" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_frameworks_libs_systemui" path="frameworks/libs/systemui" remote="e" revision="b059c0288149a8a972a8cb46ac2ac98a59c683a4" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_frameworks_opt_vcard" path="frameworks/opt/vcard" remote="e" revision="6800eee7632075a316e3c1b75050796c50d7a22c" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_lineage-sdk" path="lineage-sdk" remote="e" revision="0bf8f0c616f943bd47620f0aa510dd65d6adf0d8" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15"/>
