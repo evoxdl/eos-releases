@@ -307,7 +307,7 @@
   <project name="e/os/android" path="android" remote="e" revision="3f86154e282645734fb3d4939cad600c42dcb80c" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15"/>
   <project name="e/os/android_bootable_deprecated-ota" path="bootable/deprecated-ota" remote="e" revision="e4e2ccd64edca8b784636e0f21a51b359c8f7df5" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15" groups="pdk-cw"/>
   <project name="e/os/android_bootable_recovery" path="bootable/recovery" remote="e" revision="443359a753ae920a468918b104d96d5f72381374" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15" groups="pdk"/>
-  <project name="e/os/android_build" path="build/make" remote="e" revision="57c8ec5afd989f7e7b7789e96fef13d20dc0a476" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15" groups="pdk">
+  <project name="e/os/android_build" path="build/make" remote="e" revision="07babfea3d5b54ca4fabe1a43209b796dbf94734" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15" groups="pdk">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
     <linkfile src="core" dest="build/core"/>
@@ -320,7 +320,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
   </project>
   <project name="e/os/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="e" revision="782b62fdcb7b3a67d2389663733cc0dc67bdd6b4" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15"/>
-  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="3831a8d18e4e803b5e02f3edb1ca0b3d6c793b15" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="c2ebd50590e40631ab1482dfa86c00f747432912" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_frameworks_libs_systemui" path="frameworks/libs/systemui" remote="e" revision="b059c0288149a8a972a8cb46ac2ac98a59c683a4" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_frameworks_opt_vcard" path="frameworks/opt/vcard" remote="e" revision="6800eee7632075a316e3c1b75050796c50d7a22c" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_lineage-sdk" path="lineage-sdk" remote="e" revision="0bf8f0c616f943bd47620f0aa510dd65d6adf0d8" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15"/>
@@ -341,7 +341,7 @@
   <project name="e/os/android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="e" revision="64eb8889276da4e8ffad84b51734e219fa0d3d97" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="c6f04810ac49e101243e10ecf60bd8d8d815ea51" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15"/>
   <project name="e/os/android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="e" revision="6d10372e28c64774f4257050947560cfd8a8b691" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15" groups="pdk-fs"/>
-  <project name="e/os/android_packages_apps_Twelve" path="packages/apps/Twelve" remote="e" revision="4885400f07e95a4c4429d581aa19ee0d16d911e9" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15"/>
+  <project name="e/os/android_packages_apps_Twelve" path="packages/apps/Twelve" remote="e" revision="2bac6c1230c9bb3f00b9537aa5311c91d5bc8ecf" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15"/>
   <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="67a8f559552a94165b3835618ff9ec24ca124e1e" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15"/>
   <project name="e/os/android_packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="e" revision="86dcb3e25f7de897648ab08f77793a18ef8cf552" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15" groups="pdk-fs,sysui-studio"/>
   <project name="e/os/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="e" revision="5cbc78f4f302063f8086ab50ef66dd3591aa96d9" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15" groups="pdk-fs"/>
@@ -351,9 +351,9 @@
   <project name="e/os/android_packages_overlays_Lineage" path="packages/overlays/Lineage" remote="e" revision="72db53ff4f082f52aeef120df75cdf7eeda8756a" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15"/>
   <project name="e/os/android_packages_services_SplitInstallService" path="packages/services/SplitInstallService" remote="e" revision="57a211a7eadf699514814ad3adf2b2927d2898c1" upstream="v3.0" dest-branch="v3.0"/>
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="83746dcd8093b32b3336ac87a579a3e1773c8acf" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="external/prebuiltapks" remote="e" revision="f08f87e31363fb476e27331a2c74084c3934acc0" upstream="v3.0" dest-branch="v3.0"/>
-  <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="e33a822b73ff3313e4a040ae2c747188349286c3" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15"/>
-  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="edd92a40882299d8917269fba3f7f7ffa25a41e8" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15"/>
+  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="external/prebuiltapks" remote="e" revision="8ad149b36a0b4d0aa651dda5d4fb04585123dff4" upstream="v3.0" dest-branch="v3.0"/>
+  <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="ccbbe42167af08513e263d91b18671622ca928cf" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15"/>
+  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="6c107fae98cf85ef626ec43fc4c6f695626ca89f" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15"/>
   <project name="e/os/android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="e" revision="66738d6e43a98c5b9e224e2de248960b29ae6bc8" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15" groups="qcom,qssi"/>
   <project name="e/os/elib" path="packages/apps/elib" remote="e" revision="2a8c7731e855860def4a6ab0ba32605a81912ccc" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15"/>
   <project name="e/os/ih8sn" path="external/ih8sn" remote="e" revision="71211fb2ae972cc3c18178e1365b0987010d367d" upstream="v3.0" dest-branch="v3.0"/>
