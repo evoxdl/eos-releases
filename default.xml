@@ -351,7 +351,7 @@
   <project name="e/os/android_packages_overlays_Lineage" path="packages/overlays/Lineage" remote="e" revision="72db53ff4f082f52aeef120df75cdf7eeda8756a" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15"/>
   <project name="e/os/android_packages_services_SplitInstallService" path="packages/services/SplitInstallService" remote="e" revision="57a211a7eadf699514814ad3adf2b2927d2898c1" upstream="v3.0" dest-branch="v3.0"/>
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="83746dcd8093b32b3336ac87a579a3e1773c8acf" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="external/prebuiltapks" remote="e" revision="9e663fa2d38e830e8c8f3386f41d3b78f3d54dca" upstream="v3.0" dest-branch="v3.0"/>
+  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="external/prebuiltapks" remote="e" revision="0e4607cbfa3150fe74cd09ff3b8b1bb0aa2b70a0" upstream="v3.0" dest-branch="v3.0"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="4fc03d5d3a9f1c17d86c29f72dcb9583d74fb279" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15"/>
   <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="1dcabe61dd6ffe40081d044bea93f022c3b76fb9" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15"/>
   <project name="e/os/android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="e" revision="66738d6e43a98c5b9e224e2de248960b29ae6bc8" upstream="refs/heads/v3.0-a15" dest-branch="refs/heads/v3.0-a15" groups="qcom,qssi"/>
