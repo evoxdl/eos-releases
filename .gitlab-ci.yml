@@ -12,7 +12,7 @@ check-version:
 trigger-build-a15-community-batch-1:
   extends: .trigger-build-community
   variables:
-    DEVICES: "a21s a52q a52sxq a71 a72q a73xq akari akatsuki akita alioth apollon aura aurora axolotl B2N bangkk barbet beckham berlin berlna beyond0lte beyond1lte beyond2lte beyondx bluejay blueline bonito borneo bronco caiman capri caprip cebu channel cheetah cheryl chiron cmi comet coral crosshatch cupid d1 d1x d2s d2x davinci devon dipper discovery diting dre dubai dumpling earth enchilada eqs equuleus evert f62 fajita felix flame fogo fogos FP3 FP4 FP5 FP6 fuxi g710n g710ulm gauguin gemini ginkgo grus gta4l gta4lwifi gta4xl gts4lv gts4lvwifi gts7lwifi guacamole guam guamp"
+    DEVICES: "a21s a52q a52sxq a71 a72q a73xq akari akatsuki akita alioth apollon aura aurora axolotl B2N bangkk barbet beckham berlin berlna beyond0lte beyond1lte beyond2lte beyondx bluejay blueline bonito borneo bronco caiman capri caprip cebu channel cheetah cheryl chiron cmi comet coral crosshatch cupid d1 d1x d2s d2x davinci devon dipper discovery diting dre dubai dumpling earth enchilada eqs equuleus evert f62 felix flame fogo fogos FP3 FP4 FP5 FP6 fuxi g710n g710ulm gauguin gemini ginkgo grus gta4l gta4lwifi gta4xl gts4lv gts4lvwifi gts7lwifi guacamole guam guamp"
     BUILD_BRANCH: "a15"
 
 trigger-build-a15-community-batch-2:
@@ -30,7 +30,7 @@ trigger-build-a15-community-batch-3:
 trigger-build-a15-community-dogfooding:
   extends: .trigger-build-community
   variables:
-    DEVICES: "beryllium bramble cheeseburger guacamoleb gta4xlwifi hotdogb lemonade lemonadep river rtwo sagit sunfish troika"
+    DEVICES: "beryllium bramble cheeseburger guacamoleb gta4xlwifi hotdogb lemonade lemonadep river rtwo sagit sunfish troika fajita"
     BUILD_BRANCH: "a15"
 
 trigger-build-a15-official:
