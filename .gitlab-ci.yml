@@ -12,19 +12,19 @@ check-version:
 trigger-build-a15-community-batch-1:
   extends: .trigger-build-community
   variables:
-    DEVICES: "a21s a52q a52sxq a71 a72q a73xq akari akatsuki akita alioth apollon aura aurora axolotl B2N bangkk barbet beckham berlin berlna beyond0lte beyond1lte beyond2lte beyondx bluejay blueline bonito borneo bronco caiman capri caprip cebu cheetah cheryl chiron cmi comet coral crosshatch cupid d1 d1x d2s d2x davinci devon dipper discovery diting dre dubai dumpling earth enchilada eqs equuleus evert f62 felix flame fogo fogos FP3 FP4 FP5 FP6 g710n g710ulm gauguin gemini ginkgo grus gta4l gta4lwifi gta4xl gts4lv gts4lvwifi gts7lwifi guacamole guam guamp gunnar"
+    DEVICES: "a21s a52q a52sxq a71 a72q a73xq akari akatsuki akita alioth apollon aura aurora axolotl bangkk barbet beckham berlin berlna beyond0lte beyond1lte beyond2lte beyondx bluejay blueline bonito borneo bronco caiman capri caprip cebu cheetah cheryl chiron cmi comet coral crosshatch cupid d1 d1x d2s d2x davinci devon dipper discovery diting dre dubai dumpling earth enchilada eqs equuleus evert f62 felix flame fogo fogos FP3 FP4 FP5 FP6 g710n g710ulm gauguin gemini ginkgo grus gta4l gta4lwifi gta4xl gts4lv gts4lvwifi gts7lwifi guacamole guam guamp gunnar hawao"
     BUILD_BRANCH: "a15"
 
 trigger-build-a15-community-batch-2:
   extends: .trigger-build-community
   variables:
-    DEVICES: "hawao haydn heart hotdog husky ingot instantnoodle instantnoodlep joan judyln judyp judypn kane kebab kiev kirin komodo l01k lake larry laurel_sprout lemonades lisa lmi luigi lynx m52xq marble marlin martini mata mayfly mermaid messi Mi439 Mi8917 Mi8937 miami miatoll mondrian munch nairo nash natrium nio nx563j nx606j nx619j ocean oriole oscar oscaro panther payton pdx203 pdx206 pdx214 pdx215 pdx225 pdx234 pdx235 pdx237 perseus pioneer polaris pro1 pro1x pstar pyxis raven redfin renoir rhode rhodep rosemary sailfish sake salami sargo sdk_phone_x86_64 shark shiba socrates"
+    DEVICES: "haydn heart hotdog husky ingot instantnoodle instantnoodlep joan judyln judyp judypn kane kebab kiev kirin komodo l01k lake larry laurel_sprout lemonades lisa lmi luigi lynx m52xq marble marlin martini mata mayfly mermaid messi Mi439 Mi8917 Mi8937 miami miatoll mondrian munch nairo nash natrium nio nx563j nx606j nx619j ocean oriole oscar oscaro panther payton pdx203 pdx206 pdx214 pdx215 pdx225 pdx234 pdx235 pdx237 perseus pioneer polaris pro1 pro1x pstar pyxis raven redfin renoir rhode rhodep rosemary sailfish sake salami sargo sdk_phone_x86_64 shark shiba socrates Spacewar"
     BUILD_BRANCH: "a15"
 
 trigger-build-a15-community-batch-3:
   extends: .trigger-build-community
   variables:
-    DEVICES: "Spacewar style3lm surya sweet tangorpro thor thyme tokay TP1803 tundra umi unicorn ursa vela violet voyager xpeng xz2c Z01R zeus zippo zizhan"
+    DEVICES: "style3lm surya sweet tangorpro thor thyme tokay TP1803 tundra umi unicorn ursa vela violet voyager xpeng xz2c Z01R zeus zippo zizhan"
     BUILD_BRANCH: "a15"
 
 trigger-build-a15-community-dogfooding:
