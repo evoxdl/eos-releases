@@ -21,7 +21,6 @@
   <project name="LineageOS/android_art" path="art" revision="026b9bdf6b4afdb00418f4e8810d31cabb247fd1" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="pdk"/>
   <project name="LineageOS/android_bionic" path="bionic" revision="e168d56cb67236d6d24807be5ebc99ca66d9bb37" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="pdk"/>
   <project name="LineageOS/android_build_blueprint" path="build/blueprint" revision="c7c63940d4be6a08a01a30ababca3abc0d1ac3da" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="pdk,tradefed"/>
-  <project name="LineageOS/android_build_release" path="build/release" revision="80d2b3af6b6b24b6397e3482d611f6425a8927a4" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="pdk,tradefed,sysui-studio"/>
   <project name="LineageOS/android_development" path="development" revision="669569e3258e6a1e5b814b6c12d76ee7a00dcdee" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="developers,pdk-cw-fs,pdk-fs,sysui-studio"/>
   <project name="LineageOS/android_device_generic_common" path="device/generic/common" revision="632c63fe2c8a799a7787cbae396efa004844737b" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="pdk"/>
   <project name="LineageOS/android_device_generic_goldfish" path="device/generic/goldfish" revision="7c7fcd2760a94e345b02844de3c79e1aff91b845" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="pdk"/>
@@ -334,6 +333,7 @@
     <linkfile src="target" dest="build/target"/>
     <linkfile src="tools" dest="build/tools"/>
   </project>
+  <project name="e/os/android_build_release" path="build/release" remote="e" revision="c9094130cf250c1fd5afebf0c1a58f0f33d79a11" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk,tradefed,sysui-studio"/>
   <project name="e/os/android_build_soong" path="build/soong" remote="e" revision="23f81c6373f02dc851727a37b8169e64e53b1f5d" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk,tradefed">
     <linkfile src="root.bp" dest="Android.bp"/>
     <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
