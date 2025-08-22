@@ -322,7 +322,7 @@
   <project name="device/google_car" remote="aosp" revision="91b1282941ae78950d3a66ca0fc027a6744ef46e" upstream="refs/tags/android-15.0.0_r32" dest-branch="refs/tags/android-15.0.0_r32" groups="device,pdk"/>
   <project name="device/sample" remote="aosp" revision="c73d2a9548bdf9b8681aeb4f83c479fa5d880dd4" upstream="refs/tags/android-15.0.0_r32" dest-branch="refs/tags/android-15.0.0_r32" groups="pdk"/>
   <project name="e/os/BlissLauncher3" path="packages/apps/Trebuchet" remote="e" revision="9082cb626bb5d348e3f51aea045d7e5e51ca8661" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15"/>
-  <project name="e/os/android" path="android" remote="e" revision="fbf9c4fb5caf99c9bffe15c88df7ff43824cab83" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15"/>
+  <project name="e/os/android" path="android" remote="e" revision="90a35c658646de94a9549d1170acae155e5bd487" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15"/>
   <project name="e/os/android_bootable_deprecated-ota" path="bootable/deprecated-ota" remote="e" revision="4fe3bdf5f172b30ed10aa488e98a04cb3e11e74c" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk-cw"/>
   <project name="e/os/android_bootable_recovery" path="bootable/recovery" remote="e" revision="48d2ec7dcc24d488207a52149a25d9088a8c43a4" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk"/>
   <project name="e/os/android_build" path="build/make" remote="e" revision="07babfea3d5b54ca4fabe1a43209b796dbf94734" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk">
@@ -370,7 +370,7 @@
   <project name="e/os/android_packages_overlays_Lineage" path="packages/overlays/Lineage" remote="e" revision="90413ac579fc4d7d2c00a6aad61d7a6d06a79c58" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15"/>
   <project name="e/os/android_packages_services_SplitInstallService" path="packages/services/SplitInstallService" remote="e" revision="57a211a7eadf699514814ad3adf2b2927d2898c1" upstream="v3.1" dest-branch="v3.1"/>
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="19150199600e8ca4f35446f2caedf2c2a00a95db" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="external/prebuiltapks" remote="e" revision="6de2c27c966344a4afebcc2a2e5559791872a0a5" upstream="v3.1" dest-branch="v3.1"/>
+  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="external/prebuiltapks" remote="e" revision="98a5068519b1cc831461626334ffaadc5a713790" upstream="v3.1" dest-branch="v3.1"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="5d7fde1e229f7c21b8b5287af3aea5be9579d8d9" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15"/>
   <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="e34ebb078a912a20622bc2e55c4de7995ce388bf" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15"/>
   <project name="e/os/android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="e" revision="dc04cd343ec8941155e8e9ada8045e4e8f786577" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="qcom,qssi"/>
