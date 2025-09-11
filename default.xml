@@ -370,7 +370,7 @@
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="48da85993f82fd553d0a7710a35d4a7e5fb2c3ae" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="external/prebuiltapks" remote="e" revision="d0e97fd06d5a80cdecefbc32e521436e0d466210" upstream="v3.1" dest-branch="v3.1"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="5d7fde1e229f7c21b8b5287af3aea5be9579d8d9" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15"/>
-  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="9c3172843538e9cd5d0cfcef9d01da38df46ad44" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15"/>
+  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="90cbdc0023e8da164e68e96200cbb1a99ae21c5b" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15"/>
   <project name="e/os/android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="e" revision="dc04cd343ec8941155e8e9ada8045e4e8f786577" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="qcom,qssi"/>
   <project name="e/os/elib" path="packages/apps/elib" remote="e" revision="2a8c7731e855860def4a6ab0ba32605a81912ccc" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15"/>
   <project name="e/os/ih8sn" path="external/ih8sn" remote="e" revision="0b39e19abdf8da1ba33eaf6a85c07b0693e33251" upstream="v3.1" dest-branch="v3.1"/>
