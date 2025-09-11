@@ -325,7 +325,7 @@
   <project name="e/os/android" path="android" remote="e" revision="90a35c658646de94a9549d1170acae155e5bd487" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15"/>
   <project name="e/os/android_bootable_deprecated-ota" path="bootable/deprecated-ota" remote="e" revision="4fe3bdf5f172b30ed10aa488e98a04cb3e11e74c" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk-cw"/>
   <project name="e/os/android_bootable_recovery" path="bootable/recovery" remote="e" revision="48d2ec7dcc24d488207a52149a25d9088a8c43a4" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk"/>
-  <project name="e/os/android_build" path="build/make" remote="e" revision="07babfea3d5b54ca4fabe1a43209b796dbf94734" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk">
+  <project name="e/os/android_build" path="build/make" remote="e" revision="501207f88219dd9a159c2d14bf29b5a9709efd8e" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default"/>
     <linkfile src="core" dest="build/core"/>
@@ -339,15 +339,15 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
   </project>
   <project name="e/os/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="e" revision="3e357d13cdc6bfdb2a195f69fbe52b1c5bf5607a" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15"/>
-  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="192ae535e17fc5e4f3103e7ee804810aa7b26c3e" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="5589186aaec76734a1d1ac770c6f21c9b898f252" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_frameworks_libs_systemui" path="frameworks/libs/systemui" remote="e" revision="176818a1970454573b7a57b8df8c7fe651c3d814" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_frameworks_opt_vcard" path="frameworks/opt/vcard" remote="e" revision="054eefeaf8c70dd6625b8c4dfbbfba78e304cd52" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_lineage-sdk" path="lineage-sdk" remote="e" revision="8519ea8b585f93ca7309cc4a5f2a67a9b4a57b38" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15"/>
   <project name="e/os/android_packages_apps_Backgrounds" path="packages/apps/Backgrounds" remote="e" revision="9f8d6f5fe5a8e304532fb41e1817e6441998b00b" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15"/>
-  <project name="e/os/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="e" revision="fcc1fe17504ebcb29af2c8c4bc95cd7eb93f1a17" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk-fs"/>
+  <project name="e/os/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="e" revision="8d0703d96b49026d3ae18e5f0233a245f55ccac0" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="e" revision="8918ea5053aa34e5024c667eabea33e0cbc330ae" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="e" revision="e0f41a73243d1151b0104e248dbdf54fdc6f5c20" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk-fs"/>
-  <project name="e/os/android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="e" revision="d8edf7d050a7cb796d48f123dbcda1977f31c801" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="e/os/android_packages_apps_DocumentsUI" path="packages/apps/DocumentsUI" remote="e" revision="71ef13bb7545199eb488fe37dccd23cae95b22f6" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_apps_EmergencyInfo" path="packages/apps/EmergencyInfo" remote="e" revision="076a30ee2e5afa7ac852dd9097bf485785c6e395" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="e" revision="8011d9d54c6af90438690d7cb7d94bb0b75f0d4f" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15"/>
   <project name="e/os/android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="e" revision="8df7f12d02d684e6443c2a71ef0b72cbd9bab3f8" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15"/>
@@ -356,7 +356,7 @@
   <project name="e/os/android_packages_apps_ImsServiceEntitlement" path="packages/apps/ImsServiceEntitlement" remote="e" revision="b3a66a1861c53db52b277a1758d92bee7da53088" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="e" revision="d3658ad569794a232abba0562484e9fc5465ddc7" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15"/>
   <project name="e/os/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="e" revision="551ec1b2b1a2da045590e4dd685418b742efcfe4" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15"/>
-  <project name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="771e49cceaef9b7b7f287598b7fd5b8025dc5a78" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk-fs"/>
+  <project name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="79e86f1a5ec5c49f1de1ff4ba9d539d4c12fa961" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="e" revision="d893aa7a004df5a6c93ec008c180f4d7a13d91b6" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="1bc5c9aa985ab9c8c0eff2e1be74deaa6e8731d0" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15"/>
   <project name="e/os/android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="e" revision="9c3a47136aaa8115074e9b6bdf57412c1600bc80" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk-fs"/>
@@ -366,10 +366,10 @@
   <project name="e/os/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="e" revision="486318af76d107fa62b7e9cf1f461ae5e4a869b3" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk-fs"/>
   <project name="e/os/android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="e" revision="b5e1c221d6c1db5969390dbe013a50f8dfeae14c" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_modules_DnsResolver" path="packages/modules/DnsResolver" remote="e" revision="5029aa54d331dcdbfa1dcd83f4b0ccc6c9ca95d1" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="e/os/android_packages_modules_Permission" path="packages/modules/Permission" remote="e" revision="9b0fa6d21c5ec9969dfbec073a2db1cdc29d7f40" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="e/os/android_packages_modules_Permission" path="packages/modules/Permission" remote="e" revision="1e550874bee21b107eaf9eeabaeaa63ff9b29f02" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_overlays_Lineage" path="packages/overlays/Lineage" remote="e" revision="90413ac579fc4d7d2c00a6aad61d7a6d06a79c58" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15"/>
   <project name="e/os/android_packages_services_SplitInstallService" path="packages/services/SplitInstallService" remote="e" revision="57a211a7eadf699514814ad3adf2b2927d2898c1" upstream="v3.1" dest-branch="v3.1"/>
-  <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="19150199600e8ca4f35446f2caedf2c2a00a95db" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="48da85993f82fd553d0a7710a35d4a7e5fb2c3ae" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="external/prebuiltapks" remote="e" revision="98a5068519b1cc831461626334ffaadc5a713790" upstream="v3.1" dest-branch="v3.1"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="5d7fde1e229f7c21b8b5287af3aea5be9579d8d9" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15"/>
   <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="2ddeb6349c1ff445d84646de390e8993279a8f11" upstream="refs/heads/v3.1-a15" dest-branch="refs/heads/v3.1-a15"/>
