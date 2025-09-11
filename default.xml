@@ -71,7 +71,7 @@
   <project name="LineageOS/android_external_vim" path="external/vim" revision="0b9e59eff836742fcf3e2df4018aef98df4c3251" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2"/>
   <project name="LineageOS/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" revision="ecf13a4099fdab2ce9c547f0af1e55e527cb0b2f" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="pdk"/>
   <project name="LineageOS/android_external_zstd" path="external/zstd" revision="f7dc0bcbe980ca11813a9010197f3a23243bdaaf" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2"/>
-  <project name="e/os/android_frameworks_av" path="frameworks/av" revision="e5c0aeb14a777e56c97c3ee41daff8a50d80355d" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="pdk"/>
+  <project name="e/os/android_frameworks_av" path="frameworks/av" remote="e" revision="e5c0aeb14a777e56c97c3ee41daff8a50d80355d" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="pdk"/>
   <project name="LineageOS/android_frameworks_native" path="frameworks/native" revision="a7f9cc63d0e171387b38912e6590ef183d62618e" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="pdk"/>
   <project name="LineageOS/android_frameworks_opt_calendar" path="frameworks/opt/calendar" revision="46047903ae1b936f48e83b59b4bbd76b46c26764" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="pdk-cw-fs,pdk-fs"/>
   <project name="LineageOS/android_frameworks_opt_colorpicker" path="frameworks/opt/colorpicker" revision="1efe349cdedd4e55467d3bf780bef4f2dfc988f7" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="pdk-cw-fs,pdk-fs"/>
