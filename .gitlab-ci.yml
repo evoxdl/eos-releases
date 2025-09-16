@@ -36,5 +36,5 @@ trigger-build-a15-community-dogfooding:
 trigger-build-a15-official:
   extends: .trigger-build-official
   variables:
-    DEVICES: "FP5 FP6 shiba"
+    DEVICES: "FP5 FP6 shiba panther"
     BUILD_BRANCH: "a15"
