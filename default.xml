@@ -361,7 +361,7 @@
   <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="external/prebuiltapks" remote="e" revision="f025c8074824a0d7f7194d616994198b651d6ee1" upstream="main" dest-branch="main"/>
   <project name="e/os/android_system_core" path="system/core" remote="e" revision="e94736277d2914498b2a8dbb9bdc26d3d00fa533" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="5fab834b0ec94eb3fc8e3c73b6cc3b38ee29a442" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
-  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="ecff27a34e2a1309aedebf2ae8ccf5c7d53ad9d4" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
+  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="824b4402cc8d9b3ac2322cbae44d5a0814a97665" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
   <project name="e/os/android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="e" revision="5f9f93bc952f573c91dad863c11b20e9d53b4a36" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="qcom,qssi"/>
   <project name="e/os/elib" path="packages/apps/elib" remote="e" revision="2a8c7731e855860def4a6ab0ba32605a81912ccc" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
   <project name="e/os/ih8sn" path="external/ih8sn" remote="e" revision="0b39e19abdf8da1ba33eaf6a85c07b0693e33251" upstream="master" dest-branch="master"/>
