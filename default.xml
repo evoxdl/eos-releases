@@ -319,7 +319,7 @@
     <linkfile src="target" dest="build/target"/>
     <linkfile src="tools" dest="build/tools"/>
   </project>
-  <project name="e/os/android_build_release" path="build/release" remote="e" revision="ed281b40a8d39bb124b3f67ec8353fbe79966160" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk,tradefed,sysui-studio"/>
+  <project name="e/os/android_build_release" path="build/release" remote="e" revision="6f5ad17ee115dec5bdd2e87c893e11a2967ddf65" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk,tradefed,sysui-studio"/>
   <project name="e/os/android_build_soong" path="build/soong" remote="e" revision="23f81c6373f02dc851727a37b8169e64e53b1f5d" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk,tradefed">
     <linkfile src="root.bp" dest="Android.bp"/>
     <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
@@ -356,7 +356,7 @@
   <project name="e/os/android_packages_overlays_Lineage" path="packages/overlays/Lineage" remote="e" revision="90413ac579fc4d7d2c00a6aad61d7a6d06a79c58" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
   <project name="e/os/android_packages_services_SplitInstallService" path="packages/services/SplitInstallService" remote="e" revision="57a211a7eadf699514814ad3adf2b2927d2898c1" upstream="main" dest-branch="main"/>
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="48da85993f82fd553d0a7710a35d4a7e5fb2c3ae" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="external/prebuiltapks" remote="e" revision="2b62e54df2d38d416582352a8f8726595910aa01" upstream="main" dest-branch="main"/>
+  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="external/prebuiltapks" remote="e" revision="6ce8e00bac34b96af0738d25b570374f64f414be" upstream="main" dest-branch="main"/>
   <project name="e/os/android_system_core" path="system/core" remote="e" revision="e94736277d2914498b2a8dbb9bdc26d3d00fa533" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="5fab834b0ec94eb3fc8e3c73b6cc3b38ee29a442" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
   <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="824b4402cc8d9b3ac2322cbae44d5a0814a97665" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
