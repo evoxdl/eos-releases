@@ -192,7 +192,7 @@
   <project name="LineageOS/android_packages_apps_TvSettings" path="packages/apps/TvSettings" revision="56deadcbd1f59084e63211f7599c41427146485a" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="pdk-fs"/>
   <project name="LineageOS/android_packages_apps_TvSystemUI" path="packages/apps/TvSystemUI" revision="9fc50268ff94df6e12a3b8070103e407bb933912" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="pdk-fs"/>
   <project name="LineageOS/android_packages_inputmethods_LeanbackIME" path="packages/inputmethods/LeanbackIME" revision="6a6b251251fae081488121016de2f3d01116f2b4" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="pdk-fs"/>
-  <project name="LineageOS/android_packages_modules_Bluetooth" path="packages/modules/Bluetooth" revision="b6a6b8a289c9b971eba77818b188650548b17853" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="pdk"/>
+  <project name="e/os/android_packages_modules_Bluetooth" path="packages/modules/Bluetooth" remote="e" revision="c8b416c44c5bfc69ee933273e870479779010a3a" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk"/>
   <project name="LineageOS/android_packages_modules_CellBroadcastService" path="packages/modules/CellBroadcastService" revision="ea7970becc8bc3431505852923942a802378a338" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="pdk"/>
   <project name="LineageOS/android_packages_modules_IntentResolver" path="packages/modules/IntentResolver" revision="ac921becebd37257e454827bed97d81ec997e260" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="pdk,sysui-studio"/>
   <project name="LineageOS/android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" revision="e6a6b193aa4ae3a73ad394f0ec0cc1fcee24275a" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="pdk-cw-fs,pdk-fs"/>
@@ -310,7 +310,7 @@
   <project name="device/google_car" remote="aosp" revision="91b1282941ae78950d3a66ca0fc027a6744ef46e" upstream="refs/tags/android-15.0.0_r32" dest-branch="refs/tags/android-15.0.0_r32" groups="device,pdk"/>
   <project name="device/sample" remote="aosp" revision="c73d2a9548bdf9b8681aeb4f83c479fa5d880dd4" upstream="refs/tags/android-15.0.0_r32" dest-branch="refs/tags/android-15.0.0_r32" groups="pdk"/>
   <project name="e/os/BlissLauncher3" path="packages/apps/Trebuchet" remote="e" revision="66d1934644262f7f684ef6dfee0b4afee174cfa2" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
-  <project name="e/os/android" path="android" remote="e" revision="bebce61a1cdd17955cd55fc1d5dc885567e0f6e1" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
+  <project name="e/os/android" path="android" remote="e" revision="74e18cac8ec8b074256906c8263fb9fe8a641acf" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
   <project name="e/os/android_bootable_deprecated-ota" path="bootable/deprecated-ota" remote="e" revision="4fe3bdf5f172b30ed10aa488e98a04cb3e11e74c" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk-cw"/>
   <project name="e/os/android_bootable_recovery" path="bootable/recovery" remote="e" revision="d908da00b121440854d64b0af8d613c195402647" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk"/>
   <project name="e/os/android_build" path="build/make" remote="e" revision="a20a0e9d1b74c812f01d7f1dfe53a2ebccce5faa" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk">
