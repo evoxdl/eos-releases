@@ -15,9 +15,7 @@
   <remote name="e-priv" fetch="ssh://git@gitlab.e.foundation:2222" revision="refs/heads/a15"/>
   <remote name="github" fetch="https://github.com" review="review.lineageos.org"/>
   <remote name="private" fetch="ssh://git@github.com"/>
-  
   <default remote="github" revision="refs/heads/lineage-22.2" sync-j="4" sync-c="true"/>
-  
   <project name="LineageOS/android_art" path="art" revision="2bff6843b16c525d522994b2910469650abbf412" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="pdk"/>
   <project name="LineageOS/android_bionic" path="bionic" revision="e168d56cb67236d6d24807be5ebc99ca66d9bb37" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="pdk"/>
   <project name="LineageOS/android_build_blueprint" path="build/blueprint" revision="c7c63940d4be6a08a01a30ababca3abc0d1ac3da" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="pdk,tradefed"/>
@@ -321,7 +319,7 @@
     <linkfile src="target" dest="build/target"/>
     <linkfile src="tools" dest="build/tools"/>
   </project>
-  <project name="e/os/android_build_release" path="build/release" remote="e" revision="3600785b7865e06f30ad4b04e3b454335ad5f466" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk,tradefed,sysui-studio"/>
+  <project name="e/os/android_build_release" path="build/release" remote="e" revision="7a5b56d950cec9058573499d92d15d69c21746aa" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk,tradefed,sysui-studio"/>
   <project name="e/os/android_build_soong" path="build/soong" remote="e" revision="23f81c6373f02dc851727a37b8169e64e53b1f5d" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk,tradefed">
     <linkfile src="root.bp" dest="Android.bp"/>
     <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
@@ -365,7 +363,7 @@
   <project name="e/os/android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="e" revision="5f9f93bc952f573c91dad863c11b20e9d53b4a36" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="qcom,qssi"/>
   <project name="e/os/elib" path="packages/apps/elib" remote="e" revision="2a8c7731e855860def4a6ab0ba32605a81912ccc" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
   <project name="e/os/ih8sn" path="external/ih8sn" remote="e" revision="0b39e19abdf8da1ba33eaf6a85c07b0693e33251" upstream="master" dest-branch="master"/>
-  <project name="e/os/picotts" path="external/svox" remote="e" revision="39657d1a83b5e6c6a9c35acc2ede587e0eba3af1" upstream="master" dest-branch="master"/>
+  <project name="e/os/picotts" path="external/svox" remote="e" revision="ec18d229900e96a9b67111e66a4852ca0c2bc648" upstream="master" dest-branch="master"/>
   <project name="kernel/prebuilts/6.1/arm64" remote="aosp" revision="45f90b2e34f6cbc8a6c0c87c292e0b9d8873d20d" upstream="refs/tags/android-15.0.0_r32" dest-branch="refs/tags/android-15.0.0_r32" groups="pdk" clone-depth="1"/>
   <project name="kernel/prebuilts/6.1/x86-64" path="kernel/prebuilts/6.1/x86_64" remote="aosp" revision="4d8767b0c0e4270d144369f9337dee58b85404ef" upstream="refs/tags/android-15.0.0_r32" dest-branch="refs/tags/android-15.0.0_r32" groups="pdk" clone-depth="1"/>
   <project name="kernel/prebuilts/6.6/arm64" remote="aosp" revision="115a542792beef367685a6cd9f1430f6936b1b49" upstream="refs/tags/android-15.0.0_r32" dest-branch="refs/tags/android-15.0.0_r32" groups="pdk" clone-depth="1"/>
@@ -1212,6 +1210,5 @@
   <project name="trusty/vendor/google/aosp" remote="aosp" revision="02deab114b76b93c3f9ac6bb2b2abc1949808a57" upstream="refs/tags/android-15.0.0_r32" dest-branch="refs/tags/android-15.0.0_r32" groups="trusty,pdk">
     <copyfile src="lk_inc.mk" dest="lk_inc.mk"/>
   </project>
-  
   <contactinfo bugurl="go/repo-bug"/>
 </manifest>
