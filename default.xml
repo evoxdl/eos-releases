@@ -363,7 +363,7 @@
   <project name="e/os/android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="e" revision="5f9f93bc952f573c91dad863c11b20e9d53b4a36" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="qcom,qssi"/>
   <project name="e/os/elib" path="packages/apps/elib" remote="e" revision="2a8c7731e855860def4a6ab0ba32605a81912ccc" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
   <project name="e/os/ih8sn" path="external/ih8sn" remote="e" revision="0b39e19abdf8da1ba33eaf6a85c07b0693e33251" upstream="master" dest-branch="master"/>
-  <project name="e/os/picotts" path="external/svox" remote="e" revision="ec18d229900e96a9b67111e66a4852ca0c2bc648" upstream="master" dest-branch="master"/>
+  <project name="e/os/picotts" path="external/svox" remote="e" revision="39657d1a83b5e6c6a9c35acc2ede587e0eba3af1" upstream="master" dest-branch="master"/>
   <project name="kernel/prebuilts/6.1/arm64" remote="aosp" revision="45f90b2e34f6cbc8a6c0c87c292e0b9d8873d20d" upstream="refs/tags/android-15.0.0_r32" dest-branch="refs/tags/android-15.0.0_r32" groups="pdk" clone-depth="1"/>
   <project name="kernel/prebuilts/6.1/x86-64" path="kernel/prebuilts/6.1/x86_64" remote="aosp" revision="4d8767b0c0e4270d144369f9337dee58b85404ef" upstream="refs/tags/android-15.0.0_r32" dest-branch="refs/tags/android-15.0.0_r32" groups="pdk" clone-depth="1"/>
   <project name="kernel/prebuilts/6.6/arm64" remote="aosp" revision="115a542792beef367685a6cd9f1430f6936b1b49" upstream="refs/tags/android-15.0.0_r32" dest-branch="refs/tags/android-15.0.0_r32" groups="pdk" clone-depth="1"/>
