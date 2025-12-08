@@ -307,8 +307,8 @@
   <project name="device/google/trout" remote="aosp" revision="73324e480caefe7fbf788000292f4a319d9f8c13" upstream="refs/tags/android-15.0.0_r32" dest-branch="refs/tags/android-15.0.0_r32" groups="device,pdk" clone-depth="1"/>
   <project name="device/google_car" remote="aosp" revision="91b1282941ae78950d3a66ca0fc027a6744ef46e" upstream="refs/tags/android-15.0.0_r32" dest-branch="refs/tags/android-15.0.0_r32" groups="device,pdk"/>
   <project name="device/sample" remote="aosp" revision="c73d2a9548bdf9b8681aeb4f83c479fa5d880dd4" upstream="refs/tags/android-15.0.0_r32" dest-branch="refs/tags/android-15.0.0_r32" groups="pdk"/>
-  <project name="e/os/BlissLauncher3" path="packages/apps/Trebuchet" remote="e" revision="66d1934644262f7f684ef6dfee0b4afee174cfa2" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
-  <project name="e/os/android" path="android" remote="e" revision="74e18cac8ec8b074256906c8263fb9fe8a641acf" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
+  <project name="e/os/BlissLauncher3" path="packages/apps/Trebuchet" remote="e" revision="0b9632dd0bdfcfec6286413b024003af6aa26284" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
+  <project name="e/os/android" path="android" remote="e" revision="6e81b4caa1fc2ca02fd168243d9691fc49823c58" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
   <project name="e/os/android_bootable_deprecated-ota" path="bootable/deprecated-ota" remote="e" revision="4fe3bdf5f172b30ed10aa488e98a04cb3e11e74c" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk-cw"/>
   <project name="e/os/android_bootable_recovery" path="bootable/recovery" remote="e" revision="d908da00b121440854d64b0af8d613c195402647" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk"/>
   <project name="e/os/android_build" path="build/make" remote="e" revision="a20a0e9d1b74c812f01d7f1dfe53a2ebccce5faa" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk">
@@ -319,13 +319,13 @@
     <linkfile src="target" dest="build/target"/>
     <linkfile src="tools" dest="build/tools"/>
   </project>
-  <project name="e/os/android_build_release" path="build/release" remote="e" revision="7a5b56d950cec9058573499d92d15d69c21746aa" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk,tradefed,sysui-studio"/>
+  <project name="e/os/android_build_release" path="build/release" remote="e" revision="bb2316051658cb68daa8ca392ea2c0dff68e4fce" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk,tradefed,sysui-studio"/>
   <project name="e/os/android_build_soong" path="build/soong" remote="e" revision="23f81c6373f02dc851727a37b8169e64e53b1f5d" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk,tradefed">
     <linkfile src="root.bp" dest="Android.bp"/>
     <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
   </project>
   <project name="e/os/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="e" revision="e27f234709e4ae3a08d6e124f3a32c3701607189" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
-  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="2da74aae1afeb766adf9a23fcf3c078885bd1b0a" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="44e896d163094da357d56f3b84ae8720d7a4b791" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_frameworks_libs_systemui" path="frameworks/libs/systemui" remote="e" revision="176818a1970454573b7a57b8df8c7fe651c3d814" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_frameworks_opt_vcard" path="frameworks/opt/vcard" remote="e" revision="054eefeaf8c70dd6625b8c4dfbbfba78e304cd52" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_lineage-sdk" path="lineage-sdk" remote="e" revision="5d632c5631ce3fcab5a3d356ccb3b2d70cbf7345" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
@@ -342,7 +342,7 @@
   <project name="e/os/android_packages_apps_ImsServiceEntitlement" path="packages/apps/ImsServiceEntitlement" remote="e" revision="b3a66a1861c53db52b277a1758d92bee7da53088" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="e" revision="230b12548f111943fe8a3520cc9147881c0e4889" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
   <project name="e/os/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="e" revision="4e26f3cece83e189681abc3d569068625f5320aa" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
-  <project name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="ce6df2ebb6c75d502e603714d47489178620fc54" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk-fs"/>
+  <project name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="cd5aefcfab8a1e796112ec192a2b21159a7e3d46" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="e" revision="d893aa7a004df5a6c93ec008c180f4d7a13d91b6" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="1bfdd9252afa819e63c8ba76f47426e7f294621c" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
   <project name="e/os/android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="e" revision="4b7b68226dc4ad903ec1ab53c8594735f8dc476e" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk-fs"/>
@@ -355,11 +355,11 @@
   <project name="e/os/android_packages_modules_Permission" path="packages/modules/Permission" remote="e" revision="1e550874bee21b107eaf9eeabaeaa63ff9b29f02" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_overlays_Lineage" path="packages/overlays/Lineage" remote="e" revision="90413ac579fc4d7d2c00a6aad61d7a6d06a79c58" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
   <project name="e/os/android_packages_services_SplitInstallService" path="packages/services/SplitInstallService" remote="e" revision="57a211a7eadf699514814ad3adf2b2927d2898c1" upstream="main" dest-branch="main"/>
-  <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="48da85993f82fd553d0a7710a35d4a7e5fb2c3ae" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="0e1e4ec871c03680b4efbb4bc1a0b52435ab88ea" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="external/prebuiltapks" remote="e" revision="b1ecb43f8e7123e5028d5af1feb656b2fbe3de3a" upstream="main" dest-branch="main"/>
   <project name="e/os/android_system_core" path="system/core" remote="e" revision="182d5c217f8f5991864ccad797d19b831527d85f" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="d4da723c5a5f2a38039df2dd7bb39ce8dd1376e2" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
-  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="0d755c9c019491f7404a51fafad1733921a10caa" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
+  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="4914760e332083d469c004d01592782d29158002" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
   <project name="e/os/android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="e" revision="5f9f93bc952f573c91dad863c11b20e9d53b4a36" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="qcom,qssi"/>
   <project name="e/os/elib" path="packages/apps/elib" remote="e" revision="2a8c7731e855860def4a6ab0ba32605a81912ccc" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
   <project name="e/os/ih8sn" path="external/ih8sn" remote="e" revision="0b39e19abdf8da1ba33eaf6a85c07b0693e33251" upstream="master" dest-branch="master"/>
