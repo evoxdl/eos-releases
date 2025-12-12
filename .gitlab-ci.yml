@@ -24,7 +24,7 @@ trigger-build-a15-community-batch-2:
 trigger-build-a15-community-batch-3:
   extends: .trigger-build-community
   variables:
-    DEVICES: "pdx237 perseus pioneer polaris pro1 pro1x pstar pyxis r8q raven redfin renoir rhode rhodep rosemary sailfish sake salami sargo sdk_phone_x86_64 shark shiba socrates style3lm surya sweet tangorpro thor thyme tokay tucana tundra umi unicorn ursa vayu vela violet voyager waffle xpeng xz2c zeus zippo zizhan"
+    DEVICES: "pdx237 perseus pioneer polaris pro1 pro1x pstar pyxis r8q raven redfin renoir rhode rhodep rosemary sailfish sake salami sargo shark shiba socrates style3lm surya sweet tangorpro thor thyme tokay tucana tundra umi unicorn ursa vayu vela violet voyager waffle xpeng xz2c zeus zippo zizhan"
     BUILD_BRANCH: "a15"
 
 trigger-build-a15-community-dogfooding:
