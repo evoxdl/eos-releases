@@ -15,9 +15,7 @@
   <remote name="e-priv" fetch="ssh://git@gitlab.e.foundation:2222" revision="refs/heads/a15"/>
   <remote name="github" fetch="https://github.com" review="review.lineageos.org"/>
   <remote name="private" fetch="ssh://git@github.com"/>
-  
   <default remote="github" revision="refs/heads/lineage-22.2" sync-j="4" sync-c="true"/>
-  
   <project name="LineageOS/android_art" path="art" revision="2bff6843b16c525d522994b2910469650abbf412" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="pdk"/>
   <project name="LineageOS/android_bionic" path="bionic" revision="e168d56cb67236d6d24807be5ebc99ca66d9bb37" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="pdk"/>
   <project name="LineageOS/android_build_blueprint" path="build/blueprint" revision="c7c63940d4be6a08a01a30ababca3abc0d1ac3da" upstream="refs/heads/lineage-22.2" dest-branch="refs/heads/lineage-22.2" groups="pdk,tradefed"/>
@@ -313,7 +311,7 @@
   <project name="device/google_car" remote="aosp" revision="91b1282941ae78950d3a66ca0fc027a6744ef46e" upstream="refs/tags/android-15.0.0_r32" dest-branch="refs/tags/android-15.0.0_r32" groups="device,pdk"/>
   <project name="device/sample" remote="aosp" revision="c73d2a9548bdf9b8681aeb4f83c479fa5d880dd4" upstream="refs/tags/android-15.0.0_r32" dest-branch="refs/tags/android-15.0.0_r32" groups="pdk"/>
   <project name="e/os/BlissLauncher3" path="packages/apps/Trebuchet" remote="e" revision="c9d72b5c80547196adc700a765ec4edbaac7a041" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
-  <project name="e/os/android" path="android" remote="e" revision="72f99b827bc542af3253057b41dc25f1fee584d2" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
+  <project name="e/os/android" path="android" remote="e" revision="102f86d3d5b8388a09c87670b3027fd7890c57c4" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
   <project name="e/os/android_bootable_deprecated-ota" path="bootable/deprecated-ota" remote="e" revision="4fe3bdf5f172b30ed10aa488e98a04cb3e11e74c" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk-cw"/>
   <project name="e/os/android_bootable_recovery" path="bootable/recovery" remote="e" revision="d908da00b121440854d64b0af8d613c195402647" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk"/>
   <project name="e/os/android_build" path="build/make" remote="e" revision="a20a0e9d1b74c812f01d7f1dfe53a2ebccce5faa" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk">
@@ -362,7 +360,7 @@
   <project name="e/os/android_packages_overlays_Lineage" path="packages/overlays/Lineage" remote="e" revision="90413ac579fc4d7d2c00a6aad61d7a6d06a79c58" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
   <project name="e/os/android_packages_services_SplitInstallService" path="packages/services/SplitInstallService" remote="e" revision="57a211a7eadf699514814ad3adf2b2927d2898c1" upstream="main" dest-branch="main"/>
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="b25aff8bace045ab26b5bf44770717b407f75d0d" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="external/prebuiltapks" remote="e" revision="1931189c4b3be972da97adec4cdce4d036f684a4" upstream="main" dest-branch="main"/>
+  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="external/prebuiltapks" remote="e" revision="73d5c9cf776b5a8a81b8eb1596b4a3c390dc7900" upstream="main" dest-branch="main"/>
   <project name="e/os/android_system_core" path="system/core" remote="e" revision="d2ffe99192b240cf1d93c67d9d6d21b640b88618" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk"/>
   <project name="e/os/android_vendor_apn" path="vendor/apn" remote="e" revision="c18cea165c9e4ba9ad9897c20a488834b64b8a32" upstream="develop" dest-branch="develop"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="9994bedbc1e08a699c44992e93fe4632d8c9ae1c" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
@@ -1213,6 +1211,5 @@
   <project name="trusty/vendor/google/aosp" remote="aosp" revision="02deab114b76b93c3f9ac6bb2b2abc1949808a57" upstream="refs/tags/android-15.0.0_r32" dest-branch="refs/tags/android-15.0.0_r32" groups="pdk,trusty">
     <copyfile src="lk_inc.mk" dest="lk_inc.mk"/>
   </project>
-  
   <contactinfo bugurl="go/repo-bug"/>
 </manifest>
