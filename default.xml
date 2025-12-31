@@ -347,7 +347,7 @@
   <project name="e/os/android_packages_apps_Recorder" path="packages/apps/Recorder" remote="e" revision="4e26f3cece83e189681abc3d569068625f5320aa" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
   <project name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="2d4236bce78caaf5babbbb9b130b1424a2f09abf" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="e" revision="d893aa7a004df5a6c93ec008c180f4d7a13d91b6" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk-fs"/>
-  <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="b935eece5200bc2de4a671f89889b1368eebe550" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
+  <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="1a318f99b12465a6c0352ff4489368cf041e248c" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
   <project name="e/os/android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="e" revision="4b7b68226dc4ad903ec1ab53c8594735f8dc476e" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_Twelve" path="packages/apps/Twelve" remote="e" revision="c2c22e499766f844516d3a597106c59102b8c60a" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
   <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="0b52752bdc5203cd3b20aff90831f333f8329f8a" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
@@ -360,7 +360,7 @@
   <project name="e/os/android_packages_overlays_Lineage" path="packages/overlays/Lineage" remote="e" revision="90413ac579fc4d7d2c00a6aad61d7a6d06a79c58" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
   <project name="e/os/android_packages_services_SplitInstallService" path="packages/services/SplitInstallService" remote="e" revision="57a211a7eadf699514814ad3adf2b2927d2898c1" upstream="main" dest-branch="main"/>
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="b25aff8bace045ab26b5bf44770717b407f75d0d" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="external/prebuiltapks" remote="e" revision="73d5c9cf776b5a8a81b8eb1596b4a3c390dc7900" upstream="main" dest-branch="main"/>
+  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="external/prebuiltapks" remote="e" revision="9a51450fd188a5151f600216ddd4d6eea35eeb8d" upstream="main" dest-branch="main"/>
   <project name="e/os/android_system_core" path="system/core" remote="e" revision="d2ffe99192b240cf1d93c67d9d6d21b640b88618" upstream="refs/heads/a15" dest-branch="refs/heads/a15" groups="pdk"/>
   <project name="e/os/android_vendor_apn" path="vendor/apn" remote="e" revision="c18cea165c9e4ba9ad9897c20a488834b64b8a32" upstream="develop" dest-branch="develop"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="9994bedbc1e08a699c44992e93fe4632d8c9ae1c" upstream="refs/heads/a15" dest-branch="refs/heads/a15"/>
