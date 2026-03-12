@@ -12,13 +12,19 @@ check-version:
 trigger-build-a16-community-batch-1:
   extends: .trigger-build-community
   variables:
-    DEVICES: "FP4 FP5 Mi439 Mi8917 Mi8937 Pong Spacewar TP1803 a21s a71 akita alioth aston audi avalon avatrn avicii bangkk barbet bathena benz berlin berlna beyond0lte beyond1lte beyond2lte beyondx bluejay borneo bramble caihong caiman capri caprip cebu cheetah comet coral corvette cupid d1 d1x d2s d2x davinci denver devon discovery diting dodge dre dubai earth erhai f62 felix flame fogo fogos fuxi garnet gauguin ginkgo giulia giuliac gta4l gta4lwifi gta4xl gta4xlwifi gts7l gts7lwifi guacamole guacamoleb guam guamp gunnar hawao heart hotdog hotdogb"
+    DEVICES: "FP4 FP5 Mi439 Mi8917 Mi8937 Pong Spacewar TP1803 a21s a71 akita alioth aston audi avalon avatrn avicii bangkk barbet bathena benz berlin berlna beyond0lte beyond1lte beyond2lte beyondx bluejay borneo caihong caiman capri caprip cebu cheetah comet coral corvette cupid d1 d1x d2s d2x davinci denver devon discovery diting dodge dre dubai earth erhai f62 felix flame fogo fogos fuxi garnet gauguin ginkgo giulia giuliac gta4l gta4lwifi gta4xl gts7l gts7lwifi guacamole guam guamp gunnar hawao heart hotdog"
     BUILD_BRANCH: "a16"
 
 trigger-build-a16-community-batch-2:
   extends: .trigger-build-community
   variables:
-    DEVICES: "husky ingot instantnoodle instantnoodlep kebab kirin komodo larry laurel_sprout lemonade lemonadep lemonades lexus luigi lynx marble martini mayfly mermaid miami milanf mondrian nicole nio nuwa oriole oscar oscaro panther pdx203 pdx206 pdx214 pdx215 pdx223 pdx224 pdx225 pdx234 pdx235 pdx237 pioneer pro1x pstar r8q r8s raven redfin rhode rhodep rigby rosemary rtwo sake salami sdk_phone_x86_64 shiba socrates sunfish sweet tangorpro tegu thor tokay tucana tundra umi unicorn vermeer violet voyager waffle x1s xpeng y2s z3s zeus zippo zizhan"
+    DEVICES: "husky ingot instantnoodle instantnoodlep kebab kirin komodo larry laurel_sprout lemonades lexus luigi lynx marble martini mayfly mermaid miami milanf mondrian nicole nio nuwa oriole oscar oscaro panther pdx203 pdx206 pdx214 pdx215 pdx223 pdx224 pdx225 pdx234 pdx235 pdx237 pioneer pro1x pstar r8q r8s raven redfin rhode rhodep rigby rosemary sake salami sdk_phone_x86_64 shiba socrates sweet tangorpro tegu thor tokay tucana tundra umi unicorn vermeer violet voyager waffle x1s xpeng y2s z3s zeus zippo zizhan"
+    BUILD_BRANCH: "a16"
+
+trigger-build-a16-community-dogfooding:
+  extends: .trigger-build-community
+  variables:
+    DEVICES: "bramble gta4xlwifi guacamoleb hotdogb lemonade lemonadep rtwo sunfish"
     BUILD_BRANCH: "a16"
 
 trigger-build-a16-official:
