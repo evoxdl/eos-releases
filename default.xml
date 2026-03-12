@@ -314,7 +314,7 @@
   <project name="e/os/android_system_core" path="system/core" remote="e" revision="9cda4ff26c9301e224789fb65a022d864a4bbdbc" upstream="refs/heads/v3.6-a16" dest-branch="refs/heads/v3.6-a16" groups="pdk"/>
   <project name="e/os/android_vendor_apn" path="vendor/apn" remote="e" revision="e2f9c6c871b82ed81a58bfb127100ab100ee8736" upstream="develop" dest-branch="develop"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="10512fda7970227002468ea2ace68121497e7fd8" upstream="refs/heads/v3.6-a16" dest-branch="refs/heads/v3.6-a16"/>
-  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="3cc44d52497a9a9547c93ba52964b43dfec44825" upstream="refs/heads/v3.6-a16" dest-branch="refs/heads/v3.6-a16"/>
+  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="9fb42b340ffe80766e0215640ba4008e34821aa6" upstream="refs/heads/v3.6-a16" dest-branch="refs/heads/v3.6-a16"/>
   <project name="e/os/android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="e" revision="6e301e485135d3595a45270d9bd23ce0ca9faa9b" upstream="refs/heads/v3.6-a16" dest-branch="refs/heads/v3.6-a16" groups="qcom,qssi"/>
   <project name="e/os/elib" path="packages/apps/elib" remote="e" revision="2a8c7731e855860def4a6ab0ba32605a81912ccc" upstream="refs/heads/v3.6-a16" dest-branch="refs/heads/v3.6-a16"/>
   <project name="e/os/ih8sn" path="external/ih8sn" remote="e" revision="0b39e19abdf8da1ba33eaf6a85c07b0693e33251" upstream="v3.6" dest-branch="v3.6"/>
