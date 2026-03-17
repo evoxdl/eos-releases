@@ -310,7 +310,7 @@
   <project name="e/os/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="e" revision="e9f67d73d2be81f02ab0f09b1d0904bc74bfa261" upstream="refs/heads/v3.6-a16" dest-branch="refs/heads/v3.6-a16" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="e" revision="39ca0aeb3d71f020830daa2d95a7d57cdeadbcbf" upstream="refs/heads/v3.6-a16" dest-branch="refs/heads/v3.6-a16" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="490b355b8c043baf0ca5498d9601bfdeca8ee69c" upstream="refs/heads/v3.6-a16" dest-branch="refs/heads/v3.6-a16" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="external/prebuiltapks" remote="e" revision="f73b61597384c13a2548db22715b3989f8722e04" upstream="v3.6" dest-branch="v3.6"/>
+  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="external/prebuiltapks" remote="e" revision="dab26c78e9a515093f0f8d5fbc8957da0ce17e45" upstream="v3.6" dest-branch="v3.6"/>
   <project name="e/os/android_system_core" path="system/core" remote="e" revision="9cda4ff26c9301e224789fb65a022d864a4bbdbc" upstream="refs/heads/v3.6-a16" dest-branch="refs/heads/v3.6-a16" groups="pdk"/>
   <project name="e/os/android_vendor_apn" path="vendor/apn" remote="e" revision="e2f9c6c871b82ed81a58bfb127100ab100ee8736" upstream="develop" dest-branch="develop"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="10512fda7970227002468ea2ace68121497e7fd8" upstream="refs/heads/v3.6-a16" dest-branch="refs/heads/v3.6-a16"/>
