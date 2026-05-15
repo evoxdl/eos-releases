@@ -264,7 +264,7 @@
   <project name="device/google/trout" remote="aosp" revision="75e5877d4fb905ab5d9f79ae1b7d274b9a246699" upstream="refs/tags/android-16.0.0_r1" dest-branch="refs/tags/android-16.0.0_r1" groups="device,pdk" clone-depth="1"/>
   <project name="device/google_car" remote="aosp" revision="f7f3b09a300df48a63a6148f64047771a047e2ad" upstream="refs/tags/android-16.0.0_r1" dest-branch="refs/tags/android-16.0.0_r1" groups="device,pdk"/>
   <project name="device/sample" remote="aosp" revision="56dfdc7cbc9b3d9fb576b4201ad79554a45a7a91" upstream="refs/tags/android-16.0.0_r1" dest-branch="refs/tags/android-16.0.0_r1" groups="pdk"/>
-  <project name="e/os/BlissLauncher3" path="packages/apps/Launcher3" remote="e" revision="fa4ec743aaad4b579510e8d79da9147b1699ec37" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk-cw-tvc,pdk-fs,sysui-studio"/>
+  <project name="e/os/BlissLauncher3" path="packages/apps/Launcher3" remote="e" revision="465952ad18271e2f646b88de15a79291fa8da004" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk-cw-tvc,pdk-fs,sysui-studio"/>
   <project name="e/os/android" path="android" remote="e" revision="14078b3d0be1f6291f4ae27b830a7c029fe10b87" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16"/>
   <project name="e/os/android_bootable_deprecated-ota" path="bootable/deprecated-ota" remote="e" revision="0cc77ab06627d44ceed767bec33b6f9751ec9118" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk-cw"/>
   <project name="e/os/android_bootable_recovery" path="bootable/recovery" remote="e" revision="4c9a5e593b7734a74ce3443ff39e91558ee39f25" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk"/>
@@ -278,7 +278,7 @@
   <project name="e/os/android_external_libopenapv" path="external/libopenapv" remote="e" revision="60b4d443e3e64390bbed023a21072b5b8c8a760a" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk"/>
   <project name="e/os/android_external_sqlite" path="external/sqlite" remote="e" revision="34195bbc82b09fef7316d875890e282f01112858" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk"/>
   <project name="e/os/android_frameworks_av" path="frameworks/av" remote="e" revision="c9a00fad1968d1f16a9ba427cc8851a312a9d3bd" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk,sysui-studio"/>
-  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="7df6e42203bef0ee18c9b4c2f7000f48ef1c938e" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="7f7d007f62643e807b8435dd5166a228aded4829" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_frameworks_libs_systemui" path="frameworks/libs/systemui" remote="e" revision="f2e8b55bcf69445f0be80c03c5dd492eadb0e0a5" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_frameworks_native" path="frameworks/native" remote="e" revision="c3634ca816ff37dcda7f889ff3a74ae45c4fe90f" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk"/>
   <project name="e/os/android_frameworks_opt_vcard" path="frameworks/opt/vcard" remote="e" revision="86179a768ab7afed94f018605a3c763817c96d0f" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk-cw-fs,pdk-fs"/>
@@ -295,7 +295,7 @@
   <project name="e/os/android_packages_apps_LineageParts" path="packages/apps/LineageParts" remote="e" revision="56020a85e2a30cc1a42a4875ce1033ceaee05a1d" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16"/>
   <project name="e/os/android_packages_apps_Settings" path="packages/apps/Settings" remote="e" revision="02fd4c36fe809dc461efe42522b5f834cfaf1ffc" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="e" revision="837847b566e2ab5951c451401e08276229bb316a" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk-fs"/>
-  <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="5618e423ee7959c6d4df1021c365623e0685c544" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16"/>
+  <project name="e/os/android_packages_apps_SetupWizard" path="packages/apps/SetupWizard" remote="e" revision="2217f31f49ea7f4a560e7fd0ce5aad4ef2907ae7" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16"/>
   <project name="e/os/android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="e" revision="75b28f4c91b4e77ccd2402d1ec10267613a1a8fc" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk-fs"/>
   <project name="e/os/android_packages_apps_Updater" path="packages/apps/Updater" remote="e" revision="d2d607d123b72ae1bd654cef0176e6bab8ed7433" upstream="v4.0" dest-branch="v4.0"/>
   <project name="e/os/android_packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="e" revision="5eb612d7ccd5acf0552f3f9208de076603b266b2" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk-fs,sysui-studio"/>
@@ -310,7 +310,7 @@
   <project name="e/os/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="e" revision="638cbd1d99e93b01028e1b0ae705947f81d9f994" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="e" revision="39ca0aeb3d71f020830daa2d95a7d57cdeadbcbf" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="490b355b8c043baf0ca5498d9601bfdeca8ee69c" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="external/prebuiltapks" remote="e" revision="1bd8ea3632bfb701c221cdbfdc6ce2045cdfd1c9" upstream="v4.0" dest-branch="v4.0"/>
+  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="external/prebuiltapks" remote="e" revision="8737f6c5179c5f8d39b508d8fa420e51a450d306" upstream="v4.0" dest-branch="v4.0"/>
   <project name="e/os/android_system_core" path="system/core" remote="e" revision="9cda4ff26c9301e224789fb65a022d864a4bbdbc" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk"/>
   <project name="e/os/android_vendor_apn" path="vendor/apn" remote="e" revision="c586b020bd9fdf227d509649fe9d8800a9209c21" upstream="develop" dest-branch="develop"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="cbef46a3c768816e7c70243b7a4c47e3fa27e01d" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16"/>
