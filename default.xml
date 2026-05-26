@@ -278,7 +278,7 @@
   <project name="e/os/android_external_libopenapv" path="external/libopenapv" remote="e" revision="60b4d443e3e64390bbed023a21072b5b8c8a760a" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk"/>
   <project name="e/os/android_external_sqlite" path="external/sqlite" remote="e" revision="34195bbc82b09fef7316d875890e282f01112858" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk"/>
   <project name="e/os/android_frameworks_av" path="frameworks/av" remote="e" revision="c9a00fad1968d1f16a9ba427cc8851a312a9d3bd" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk,sysui-studio"/>
-  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="7f7d007f62643e807b8435dd5166a228aded4829" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk-cw-fs,pdk-fs"/>
+  <project name="e/os/android_frameworks_base" path="frameworks/base" remote="e" revision="8ea98e5db62cf9feacb08266076381b1ee9e4de2" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_frameworks_libs_systemui" path="frameworks/libs/systemui" remote="e" revision="f2e8b55bcf69445f0be80c03c5dd492eadb0e0a5" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_frameworks_native" path="frameworks/native" remote="e" revision="c3634ca816ff37dcda7f889ff3a74ae45c4fe90f" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk"/>
   <project name="e/os/android_frameworks_opt_vcard" path="frameworks/opt/vcard" remote="e" revision="86179a768ab7afed94f018605a3c763817c96d0f" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk-cw-fs,pdk-fs"/>
@@ -310,9 +310,9 @@
   <project name="e/os/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="e" revision="638cbd1d99e93b01028e1b0ae705947f81d9f994" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="e" revision="39ca0aeb3d71f020830daa2d95a7d57cdeadbcbf" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="490b355b8c043baf0ca5498d9601bfdeca8ee69c" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="external/prebuiltapks" remote="e" revision="d5b69330ca5dbb8d28ed67c2bba44028fb621e01" upstream="v4.0" dest-branch="v4.0"/>
+  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="external/prebuiltapks" remote="e" revision="6b512bb0a5605ac671a56bd56e8827896cc77e38" upstream="v4.0" dest-branch="v4.0"/>
   <project name="e/os/android_system_core" path="system/core" remote="e" revision="9cda4ff26c9301e224789fb65a022d864a4bbdbc" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk"/>
-  <project name="e/os/android_vendor_apn" path="vendor/apn" remote="e" revision="c586b020bd9fdf227d509649fe9d8800a9209c21" upstream="develop" dest-branch="develop"/>
+  <project name="e/os/android_vendor_apn" path="vendor/apn" remote="e" revision="f667de3d302ab0af83e213223d59abf544a256df" upstream="develop" dest-branch="develop"/>
   <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="cbef46a3c768816e7c70243b7a4c47e3fa27e01d" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16"/>
   <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="16a716f710e3f637eebb6e7b57c645c7fea3f315" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16"/>
   <project name="e/os/android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="e" revision="8fb37857678d22c51e431b780a1113e51279163e" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="qcom,qssi"/>
