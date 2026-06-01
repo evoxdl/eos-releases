@@ -30,6 +30,6 @@ trigger-build-a16-community-dogfooding:
 trigger-build-a16-official:
   extends: .trigger-build-official
   variables:
-    DEVICES: "GS6_Venus avicii"
+    DEVICES: "FP6 GS6_Venus avicii"
     BUILD_BRANCH: "a16"
 
