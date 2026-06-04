@@ -259,7 +259,7 @@
   <project name="device/google_car" remote="aosp" revision="f7f3b09a300df48a63a6148f64047771a047e2ad" upstream="refs/tags/android-16.0.0_r1" dest-branch="refs/tags/android-16.0.0_r1" groups="device,pdk"/>
   <project name="device/sample" remote="aosp" revision="56dfdc7cbc9b3d9fb576b4201ad79554a45a7a91" upstream="refs/tags/android-16.0.0_r1" dest-branch="refs/tags/android-16.0.0_r1" groups="pdk"/>
   <project name="e/os/BlissLauncher3" path="packages/apps/Launcher3" remote="e" revision="0cc90f2a1e492df351feddc758a4e3e422b95660" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk-cw-tvc,pdk-fs,sysui-studio"/>
-  <project name="e/os/android" path="android" remote="e" revision="14078b3d0be1f6291f4ae27b830a7c029fe10b87" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16"/>
+  <project name="e/os/android" path="android" remote="e" revision="9b6243240d711fc15f55b06dd017d6c09f6b74fe" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16"/>
   <project name="e/os/android_bootable_deprecated-ota" path="bootable/deprecated-ota" remote="e" revision="0cc77ab06627d44ceed767bec33b6f9751ec9118" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk-cw"/>
   <project name="e/os/android_bootable_recovery" path="bootable/recovery" remote="e" revision="4c9a5e593b7734a74ce3443ff39e91558ee39f25" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk"/>
   <project name="e/os/android_build_release" path="build/release" remote="e" revision="a768413e8e35ada3d44664ee7ce43cc6bf9a0755" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk,sysui-studio,tradefed"/>
@@ -309,14 +309,14 @@
   <project name="e/os/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" remote="e" revision="1d7356dd4c92e81e3b06c56ea3b6670f69ea8093" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="e" revision="6ac36f36059dd8609270c26b03e8a410080c7a91" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="e" revision="39ca0aeb3d71f020830daa2d95a7d57cdeadbcbf" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="external/prebuiltapks" remote="e" revision="6b512bb0a5605ac671a56bd56e8827896cc77e38" upstream="v4.0" dest-branch="v4.0"/>
+  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="external/prebuiltapks" remote="e" revision="9178a1655a84a49803256628bccd5d9a2cc8ba61" upstream="v4.0" dest-branch="v4.0"/>
   <project name="e/os/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="e" revision="fba10a1580b67724f1f766ed3fa1a1f2908bec1b" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="b5f34b38edc569cd3e69b43436d0a6a50d52e0b0" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_system_apex" path="system/apex" remote="e" revision="defdac98b3f1132fc4330f8025ee2d513140c01d" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk"/>
   <project name="e/os/android_system_core" path="system/core" remote="e" revision="9cda4ff26c9301e224789fb65a022d864a4bbdbc" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="pdk"/>
   <project name="e/os/android_vendor_apn" path="vendor/apn" remote="e" revision="f667de3d302ab0af83e213223d59abf544a256df" upstream="develop" dest-branch="develop"/>
-  <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="cbef46a3c768816e7c70243b7a4c47e3fa27e01d" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16"/>
-  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="16a716f710e3f637eebb6e7b57c645c7fea3f315" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16"/>
+  <project name="e/os/android_vendor_eos" path="vendor/eos" remote="e" revision="7df1329dc5d1d841f443035c6596223921248582" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16"/>
+  <project name="e/os/android_vendor_lineage" path="vendor/lineage" remote="e" revision="853047f75415f76f4643e5bce583bdb5a1e0279f" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16"/>
   <project name="e/os/android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" remote="e" revision="8fb37857678d22c51e431b780a1113e51279163e" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16" groups="qcom,qssi"/>
   <project name="e/os/elib" path="packages/apps/elib" remote="e" revision="2a8c7731e855860def4a6ab0ba32605a81912ccc" upstream="refs/heads/v4.0-a16" dest-branch="refs/heads/v4.0-a16"/>
   <project name="e/os/ih8sn" path="external/ih8sn" remote="e" revision="0b39e19abdf8da1ba33eaf6a85c07b0693e33251" upstream="v4.0" dest-branch="v4.0"/>
