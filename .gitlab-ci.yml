@@ -18,7 +18,7 @@ trigger-build-a16-community-batch-1:
 trigger-build-a16-community-batch-2:
   extends: .trigger-build-community
   variables:
-    DEVICES: "husky ingot instantnoodle instantnoodlep kebab kirin komodo larry laurel_sprout lemonades lexus luigi lynx marble martini mayfly mermaid miami milanf mondrian nicole nio nuwa oriole oscar oscaro panther pdx203 pdx206 pdx214 pdx215 pdx223 pdx224 pdx225 pdx234 pdx235 pdx237 pioneer pro1x pstar r8q r8s raven redfin rhode rhodep rigby rosemary sake salami sdk_phone_x86_64 shiba socrates sweet tangorpro tegu thor tokay tucana tundra umi unicorn vermeer violet voyager waffle x1s xpeng y2s z3s zeus zippo zizhan"
+    DEVICES: "husky ingot instantnoodle instantnoodlep kebab kirin komodo larry laurel_sprout lemonades lexus luigi lynx marble martini mayfly mermaid miami milanf mondrian nicole nio nuwa oriole oscar oscaro panther pdx203 pdx206 pdx214 pdx215 pdx223 pdx224 pdx225 pdx234 pdx235 pdx237 pioneer pro1x pstar r8q r8s raven redfin rhode rhodep rosemary sake salami sdk_phone_x86_64 shiba socrates sweet tangorpro tegu thor tokay tucana tundra umi unicorn vermeer violet voyager waffle x1s xpeng y2s z3s zeus zippo zizhan"
     BUILD_BRANCH: "a16"
 
 trigger-build-a16-community-dogfooding:
