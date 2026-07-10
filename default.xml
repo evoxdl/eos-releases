@@ -16,6 +16,73 @@
     <linkfile src="target" dest="build/target"/>
     <linkfile src="tools" dest="build/tools"/>
   </project>
+<project
+    path="device/motorola/genevn"
+    name="evoxdl/device_motorola_genevn"
+    remote="github"
+    revision="lineage-23.0" />
+
+<project
+    path="device/motorola/boston"
+    name="evoxdl/android_device_motorola_boston"
+    remote="github"
+    revision="lineage-23.0" />
+
+<project
+    path="device/motorola/sm6450-common"
+    name="evoxdl/android_device_motorola_sm6450-common"
+    remote="github"
+    revision="lineage-23.0" />
+
+
+<project
+    path="vendor/motorola/sm6450-common"
+    name="evoxdl/proprietary_vendor_motorola_sm6450-commonn"
+    remote="github"
+    revision="lineage-23.0" />
+
+<project
+    path="vendor/motorola/genevn"
+    name="evoxdl/proprietary_vendor_motorola_genevn"
+    remote="github"
+    revision="lineage-23.0" />
+
+<project
+    path="vendor/motorola/boston"
+    name="evoxdl/ven"
+    remote="github"
+    revision="lineage-23.0" />
+	
+<project
+    path="kernel/motorola/sm6450"
+    name="evoxdl/kernel_sm6450"
+    remote="github"
+    revision="lineage-23.2" />
+	
+<project
+    path="kernel/motorola/sm6450-modules"
+    name="evoxdl/android_kernel_motorola_sm6450-modules"
+    remote="github"
+    revision="lineage-23.2" />
+	
+<project
+    path="kernel/motorola/sm6450-modules"
+    name="evoxdl/android_kernel_motorola_sm6450-devicetrees"
+    remote="github"
+    revision="lineage-23.2" />
+
+<project
+    path="hardware/motorola"
+    name="evoxdl/android_hardware_motorola"
+    remote="github"
+    revision="Dolby-Vision-2.0" />
+	
+<project
+    path="hardware/dolby"
+    name="evoxdl/hardware_dolby"
+    remote="github"
+    revision="Dolby-Vision-2.0" />
+
   <project name="LineageOS/android_development" path="development" revision="00049fe071b1de4423b992f14252d848b521b1d7" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="developers,pdk-cw-fs,pdk-fs,sysui-studio"/>
   <project name="LineageOS/android_device_generic_common" path="device/generic/common" revision="5f69e8d5bae59dc4b06d7a3f5a3e555e16ce8b2e" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk"/>
   <project name="LineageOS/android_device_generic_goldfish" path="device/generic/goldfish" revision="e1dceab06cfb5c9510dbfc7202f695f3223f93b0" upstream="refs/heads/lineage-23.0" dest-branch="refs/heads/lineage-23.0" groups="pdk"/>
@@ -198,7 +265,7 @@
   <project name="LineageOS/android_vendor_qcom_opensource_agm" path="hardware/qcom-caf/sm8550/audio/agm" revision="10316d1cf67a187721ab56af7e7359837c693885" upstream="lineage-23.0-caf-sm8550" dest-branch="lineage-23.0-caf-sm8550" groups="kailua-audio,qcom"/>
   <project name="LineageOS/android_vendor_qcom_opensource_agm" path="hardware/qcom-caf/sm8650/audio/agm" revision="ec6b675a3487fa6481756a6978fcc1f0d8b9a0b3" upstream="lineage-23.0-caf-sm8650" dest-branch="lineage-23.0-caf-sm8650" groups="lanai-audio,qcom"/>
   <project name="LineageOS/android_vendor_qcom_opensource_agm" path="hardware/qcom-caf/sm8750/audio/agm" revision="4ce90e27e59e98aeda24a20cd6649fb2843c0de0" upstream="lineage-23.0-caf-sm8750" dest-branch="lineage-23.0-caf-sm8750" groups="pakala-audio,qcom"/>
-  <project name="LineageOS/android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8450/audio/pal" revision="34a5303d0fe375aac553f3ca61428b5010fc7dd8" upstream="lineage-23.0-caf-sm8450" dest-branch="lineage-23.0-caf-sm8450" groups="qcom,waipio-vendor"/>
+  <project name="evoxdl/android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8450/audio/pal" revision="34a5303d0fe375aac553f3ca61428b5010fc7dd8" upstream="lineage-23.0-caf-sm8450" dest-branch="lineage-23.2-caf-sm8450" groups="qcom,waipio-vendor"/>
   <project name="LineageOS/android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8550/audio/pal" revision="da1ece555f557475f19588cafe82fcbc7ff05b7b" upstream="lineage-23.0-caf-sm8550" dest-branch="lineage-23.0-caf-sm8550" groups="kailua-audio,qcom"/>
   <project name="LineageOS/android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8650/audio/pal" revision="90aedd388bf2cf673ce023e07ecd12e0336d1735" upstream="lineage-23.0-caf-sm8650" dest-branch="lineage-23.0-caf-sm8650" groups="lanai-audio,qcom"/>
   <project name="LineageOS/android_vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8750/audio/pal" revision="7f00b3556e364f6a0eb61faa4287bdbdfe958c4e" upstream="lineage-23.0-caf-sm8750" dest-branch="lineage-23.0-caf-sm8750" groups="pakala-audio,qcom"/>
