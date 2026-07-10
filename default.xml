@@ -311,7 +311,7 @@
   <project name="e/os/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="e" revision="b2bb01e5604e69f0d2ca1913adae25a9466b061c" upstream="refs/heads/v4.1-a16" dest-branch="refs/heads/v4.1-a16" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_services_Telecomm" path="packages/services/Telecomm" remote="e" revision="fba10a1580b67724f1f766ed3fa1a1f2908bec1b" upstream="refs/heads/v4.1-a16" dest-branch="refs/heads/v4.1-a16" groups="pdk-cw-fs,pdk-fs"/>
   <project name="e/os/android_packages_services_Telephony" path="packages/services/Telephony" remote="e" revision="b5f34b38edc569cd3e69b43436d0a6a50d52e0b0" upstream="refs/heads/v4.1-a16" dest-branch="refs/heads/v4.1-a16" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="external/prebuiltapks" remote="e" revision="923d03e5e334925b0eef9944a748ca68d4a4ec22" upstream="v4.1" dest-branch="v4.1"/>
+  <project name="e/os/android_prebuilts_prebuiltapks_lfs" path="external/prebuiltapks" remote="e" revision="40d088d6c8300cace3f29b151fc68d27b0dbbe2e" upstream="v4.1" dest-branch="v4.1"/>
   <project name="e/os/android_system_apex" path="system/apex" remote="e" revision="defdac98b3f1132fc4330f8025ee2d513140c01d" upstream="refs/heads/v4.1-a16" dest-branch="refs/heads/v4.1-a16" groups="pdk"/>
   <project name="e/os/android_system_core" path="system/core" remote="e" revision="9cda4ff26c9301e224789fb65a022d864a4bbdbc" upstream="refs/heads/v4.1-a16" dest-branch="refs/heads/v4.1-a16" groups="pdk"/>
   <project name="e/os/android_vendor_apn" path="vendor/apn" remote="e" revision="d2451c168db4ddd16d94e2ce0b2bf42409d19984" upstream="develop" dest-branch="develop"/>
