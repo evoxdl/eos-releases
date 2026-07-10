@@ -66,7 +66,7 @@
     revision="lineage-23.2" />
 	
 <project
-    path="kernel/motorola/sm6450-modules"
+    path="kernel/motorola/sm6450-devicetrees"
     name="evoxdl/android_kernel_motorola_sm6450-devicetrees"
     remote="github"
     revision="lineage-23.2" />
